@@ -1,0 +1,16 @@
+This is the same for Dialogues.
+-------------------------------
+
+
+Make a controler
+
+then add it do Controler handler
+
+
+
+In Controler handler add one of these for all new dialogues
+------------------------------------------------------------------
+Class<Controler> value24 = (Class<Controler>) Class
+					.forName(SafeFree.class.getCanonicalName());
+			handledControlers.put("SafeFree", value24);
+------------------------------------------------------------------

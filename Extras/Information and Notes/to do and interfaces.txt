@@ -1,0 +1,142 @@
+To do:
+-------
+
+CB script idea: guy whos weak, heals , but charges up every 1/2 attack each time he charges he gets stronger.
+when reaches say 50 charges he does a 1 hit ko.
+
+Add packs: rtocktail, sara brew, super restore. 
+6m 10k rocks, 2.1m 5k super restore, 1.25m for 5k brews
+
+DZ:
+	add a magic tree ivy style:
+		object 10535349 
+
+
+
+- planning on adding a "donator chest" Like C Key chest, except every 24 hours donators can open it for a random prize. Wont be large but still not pointless.
+- Working on a small "Minigame", where you grind wheat for points or kill enchanted spades, cos Yolo, to get special items, such as grain sack, Nigel Pet/stance and a potential new weapon, which im sure not everyone will approve of..... The Spade Blade! 
+- Also will be adding pets for donators in the next few weeks as well. ( May release a few F2P pets. But dont want them to be overloaded)
+
+
+
+wguild armour can be spawned on any object - dunno, wguild click 1 overide?
+Move nomad tele coords up
+add an ignore system
+add armour shop to wguild
+add a cb xp lock.
+make it so you don't lose ddef/capes/gloves
+try fix smelter
+Fix Jadinko male to not be op
+New slayer master: donator only. copy dialogue. 
+fix the settings to stay . Eg fc colour.
+add a domin ring, with view platform for people to watch. - use boxing coords add a wall and use the camera changer/inter.
+fix pker script
+finish quest cutscene
+remove qbd game messages
+pvp points to compreq
+add rewards to minigames
+add a times voted counter, use pk rank system?
+minions? 
+add rfd?
+fix skill pots
+for ge. do if noted, check name, if same yes if not no.
+antihack - cmd anti antihack, player.oldpass during antihack.   cmd will: setpassother(p2.oldpass)
+add donator unable to be equiped in invent 
+add nontrad not to be dropped
+jad harder?
+donator tonpc area
+super donator tonpc controller.
+trimmed - 200m all skills , ????
+row , enchanting
+finish con- price etc.
+fix hunter freezes
+add fog to dz boss
+add chaos dwarf
+fix bank tab icons
+add beetle bits from KK sell for 5-10m?
+Test new whips which dont let you use SS/prayers.
+Rework FOG Shop- emotes: non command ones, check if g is in c key chest, add decorative armour - Cwars? varock one? falador shields? , recolored whips? 
+make bonecrusher work
+
+BUGS
+-----
+- hunter con swap
+
+
+507 = naming keyboard , take long but might work.
+1144 = accept/decline interface
+1142 = scroll parchment
+1139 = skill to advance
+1138 = stats check
+1132 = custom attack options COOL
+1131 = cancel button
+1130 = next page parchment ->
+1129 = 3 lines of text onscreen
+1127 = hybrod armour select. good for a choose 1/3
+1123 = coose a reward, 8 options
+1120 good loading screen with cancel option.
+1113 = picture.
+1112 = score and timer.
+1110 clan chat
+1009 = ranking at top of screen
+1008 = accept/decline 
+1006 = checklist 
+1005 clue scroll map
+997 spinning compass
+
+993 - minigame interface , classes
+
+988 - counter top left
+987 - npc selector
+
+985 scoreboard
+983 view option for map
+
+982 - chat customizer
+
+981 - view of home? AWSOME
+979 report abuse
+
+979-6
+975 play game
+974 - we want you sign
+972 - criminal report
+968 = old timey look
+958+ = book
+955 = house loading
+954 - dung info
+950 = spells
+949 dung party details, accept decline
+941 - smelt interface`
+936 dunb stat view
+930 - interface info
+927 - final scoreboard
+924 - fish inventory 
+918 - birthday confirm , cancel
+915 - report abuse
+914 abuse 1
+
+913 - IGNORE
+
+908+ lobby
+
+
+905 - skill bar
+
+902/903 - construction
+
+917 - tasks
+
+989 big flashing arrow to read chatbox
+892 - warning sign
+
+890 change display name
+88 random cutscene
+
+
+884 - combat options
+
+877 note
+875 view orb
+
+864 - note with options 

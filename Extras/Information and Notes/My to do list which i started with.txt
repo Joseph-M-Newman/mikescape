@@ -1,0 +1,216 @@
+I have added this in to show the beginners that everyone starts somewhere and you can learn how to do it :P it just takes time.  i started this a little while after i started
+running my own server. I had small coding experiance from a previous server so i knew the semi basics. X means i have completed it, i stopped using the list
+a while before i closed my server so some things have been made.
+
+
+
+The list elow this is also the to do list from the Poanizer Project
+
+
+
+
+
+List
+----------------------------------------------------
+avatar bosses
+
+treasure trails
+
+cannon base.
+
+make ingame music songs?
+
+add colored sols and infinity to wyrns
+
+permision areas
+
+make sell prices for 
+
+price mining store 
+
+ shard box
+ 
+ pm out of box
+ 
+ try fix range / mage flasks. or flasks in general
+ 
+ add rings to pvm drops
+ 
+ add decant potions
+ 
+ make con - saw on log = plank plank + nails = things X
+ 
+ 
+ remove all dragon armour from ge - add to pvm drops.
+ - Maybe make currpot dragon for drops at revs 
+ - Repair curropt and make normal dragon also
+ - 
+ 
+ prestige change stats lower str bonus X  make cost more
+ 
+ Fix farming bug guam-torstal
+ 
+ fix fish banks X
+ 
+ more dung trokken
+ 
+Recode polypore dungeon. more beasts seperate areas. X
+ 
+ poison chalice -> drink it and die lol.   invent handler maybe?
+ 
+ more donator shop
+ 
+ possible outfit for str bonus
+ 
+ fix potion spam if u can
+ 
+ offhand chaotics X
+ 
+ make it so crystal key can join. cant sell full in ge. X 
+ 
+ add to saff shop : nex sets (20159 20163 20167,  X
+ 
+ construction: planks on a shop use on a bench to get chair use on diff bench for diff items. gain xp .
+  
+try fix grenwall spikes and mud runes
+ 
+ making prestige shop 50 . add the cape X
+ 
+ add blue charms to drops X
+ 
+ make kiln donator only. inventory handler - check donator  X - button handler
+ 
+ get cannon/handcannon in fog shop X
+ 
+new homes--
+2336 3665
+shilo.
+
+
+---------------
+ 
+ safe pvp
+ 
+ make excalibur in shop 
+ 
+ 
+ add revs respawn and loots X
+ 
+ make skilling way for fog - flax 2646  object 1 click and add emote?
+ 
+ add reset commands X
+ 
+ misamic spell
+
+add wizard g 
+ 
+try make sell all button 
+ 
+-----------------------------------------------------------------
+ clan wars - rename edgeville portal dialogue and object handler fo ede portal to make it send you to ruins
+ ------------------------------------------------------
+ try edit usmmoning - xp and pouches  - attempted steel titan?  XXXXX DONE!
+
+ add glacors to slayer task + more X glacors to much xp added hellhounds /dragons wont work? X
+  
+ fix gano drops X
+ 
+  add ghostlysX 
+ 
+ z bow higher price X glithced like glory X
+vote shop - void  X ish
+ 
+nex set prices  X
+ add fogs to monster  X
+ 
+ do cut gem prices X
+	
+add tele tabs	 X
+
+ 
+------------------------------------------
+
+ fix headbands X
+ make pouches for everyone X
+ 
+ fix quest guide dialogue X - to a degree
+Reprice: all bones, all axes, X
+clean herbs X
+
+2nd pk shop with corrupts X
+
+seeds in bob. guam tortal snap X
+
+move altars X
+
+
+
+
+add pest and mort, make herb shop sell X
+
+ovl donator X
+
+remove pk kills X?
+
+add more commands for admins not just owner X
+
+fix admin log in crown X ?
+
+add a staffzone and add a staff shop  X
+
+emove dice from store X -moved to staff shop
+
+move crier to dz X
+
+Move santa X
+
+Fixed glory glitch completely? 
+
+
+
+Box in mugger 3082, 3493  3083,3494  X
+
+Fix smithing tele X
+
+Remove crier autowalk X
+
+add banks X
+
+-Moved- RC things X
+
+move portal to 3037 4503 X
+
+Move shop 29 to 2593 2930 X
+
+trade over frosts make potion shhop bone shop X
+-----------------------------------
+add/fix other statue DZ  X
+
+Move slayer helms from potiont o slayer shop X
+
+dice D only remove skele guyX
+
+Move to hunter area. X
+
+remove pets -gem  X 
+
+RC tokken shop : add axes, vesta spear X
+---------------------------------------------------------------
+remove 1 ess add astrals shop keeper X
+
+fix ge glitch X
+
+fog shop: xp lamps gloves defenders no sanata X
+
+remove capes legends obsidion add 120 dung X  1052 100 6568 100 
+
+Move presto to 3091 3498 X
+
+move obelisk to 3086 3487  X
+ 
+ 
+ 
+Pennance gear:   10 10555 10 15438 10 
+Gloves: 7453 100 7454 100 7455 100 7456 100 7456 100 7457 100 7458 100 7459 100 7460 100 7461 100 7462
+
+8845 100 8846 100 8847 100 8849 100 8850 100 20072

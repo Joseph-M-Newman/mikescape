@@ -1,0 +1,33 @@
+Disabled Features:
+--------------------
+
+Player Online/Ingame SQL updater.
+-----------------------------------
+Look in SQL.Java, Worldthread.java, and Player.Java
+
+
+
+In SQL.java edit the database information to match your SQL Database.
+
+Worldthread.Java, search for "//Players ingame count." and uncomment the big block.
+
+In Player.java, search for "//Highscores" and uncomment that code.
+
+
+
+
+
+
+
+
+Staffpin Server Security
+--------------------------
+
+Normally all Mods+ will need to enter a custom pin number to use thier mod+ commands.
+However since new RSPS owners wont understand it I have removed it.
+
+To re-enable this feature you will need to look in Player.java
+
+Search for "//Staffpin Disabled" and read the instructions there.
+
+To make a new pin, do ;;staffpin 0 to unlock the commands. then do ::Setstaffpin (pin number)

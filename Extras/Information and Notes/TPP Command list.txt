@@ -1,0 +1,523 @@
+Commands:
+
+
+Owner.
+--------
+Customs: spawns all customs
+Gooditems: adds good items to your bank
+Hackmessoff: turns of antihack message.
+Gvop: gives 100 vote points.
+Goodbank: gives you junk.
+Fishme: resets npcs.
+Allwild: every is in wild.
+Bowto: bows to someone.
+Unpermban: does nothing.
+Teleall: teles everyone to you.
+Killallnpc: kills all npcs.
+Pvpx: enable/disables wildy.
+Partytime2: everything dances.
+Partytime: everyone dances.
+Addslayerpoints: adds 10 slayerpoints.
+Orange/flashing/white/teal/blue/lightblue: pointless gfx.
+Smash: everyone smashes.
+Alllog: everyone logs.
+Vengall: everyone does vengance.
+Restart: same as update.
+Nightall: says goodnight to everyone.
+Voteall: Everyone opens vote page.
+Reloadshops: refreshes shops.
+Removeitem: takes an item.
+Giveitem: gives someone an item.
+Random event: gives someone the random.
+Pm2: sends a stupid pm to someone.
+Pmto:sends a stupid pm to someone.
+Logoutx: sends logout interface.
+Afk: lies down
+Event: sends an interface.
+Wakeup2: new jeff video.
+Read: read ingame
+Wakefup: wakes them the fuck up.
+url/url2/url3: sends an exe message.
+Taken: sends liam neeson.
+Banvid: sends the ban vid.
+Night: says goodnight.
+Wakeup: wakes them up.
+Nigga2: asking whats good.
+Nigga: ask what they said.
+Heyya: sends whats up.
+Loituma: sends loituma.
+Killnpc2: sends the npc death.
+Setrights: sets someones rights.
+Changepassother: changes someones password.
+Title: any title.
+Otherpp: Checks peoples pvp points.
+Otherkdr: checks peoples kdr.
+Disable: Alternative perm ban.
+Polyporeold: old polypore dungeon.
+Pvpother: starts wild for them.
+Task2: slayer task test.
+getip: gets there ip.
+Task: another slayer test.
+Getpassword: gets their password.
+Ingameplayers: updates SQL ingame players
+Updatepc: updates SQL player count.
+Dial2: dialougue starter
+Dial1: dialogue starter
+Prestigeother: sets someones prestige.
+Setskullother: sets there skull.
+setskull: sets your skull.
+Time: the time.
+Prestigeother1: adds +1 prestige to them
+Shutdown: 60 second update.
+Master: fully maxed xp.
+Ge: opens ge.
+Spec: restores spec.
+Pray: restores prayer.
+Heal: heals you.
+Runes: spawns all runes.
+Takedonator: takes donator.
+Monthdonator: gives 1 motnth donator status.
+Permdonator: permanent donator status.
+Fishworld: closes run.cmd.
+Wguildtoken: adds 100 tokkens
+Removewguildtokken: removes 100 tokkens.
+Startipmute: initiated ip mute.
+Saveipmute: saved ip mute.
+Itemoni: adds an item to a interface component.
+
+
+
+Developer.
+-----------
+Images: shows images in crowns from 0-20
+God: sets your equipment stats to 5k. and gives max HP.
+God2: same as God with forcetalk and a remote.
+Item: spawns an item.
+Donator: gives someone donator.
+Maxed: maxes a level.
+Maxprestige: sets prestige to 9001.
+Prestige: makes prestige up by 1.
+Dclaws: makes everyone do d claw spec.
+Chopchop: makes everyone chop wood.
+Hellothere: makes everyone say hello.
+Nolewis: Dont do it lewis.
+Nuke2: Kills everyone with shake.
+Nuke: kills everyone.
+Nuke3: doesnt kill people. Makes everyone fall over.
+Demoteall: demotes everyone.
+Npcall: sets everyone to an npc.
+Setdeaths: sets your deaths
+Setkills: sets your kills
+setotherkills: sets others kills
+setotherdeaths: sets others deaths.
+Setqp: Sets quest points.
+Tabses: Sends tabs from 110 - 200
+Tab: sends a tab.
+Spawnplayer: spawns a fake player.
+Controller: shows what controller your in.
+Npc: spawns an npc.
+Dharok: spawns a DH set.
+Adminitem: spawns adminitem.
+Ringoflife: spawns ring of life.
+Summon: opens summoning interface. (dont work)
+Outfithelp: shows default look ids for default male/female.
+Snowcs: shows the zenith cutscene
+Homecs: shows the zenith home cutscene
+Custcene2: shows a cutscene by id.
+Changedisplay: changes display name. dont work tho.
+Checkdisplay: checks if anyone has bad display names.
+Testdung: old dung.
+Pets36: Zenith pet shop
+69kingtho: custom pet shop.
+Ds1: donator shop.
+Pk1: rev items
+Pk2: corrupt rev items.
+Ss1: staff shop 1
+Ss2: staff shop 2
+Nonex1: non exchangables 1
+Nonex2: non exhchangables 2
+Shop: opens a shop
+Karamja: Karamja ship dialogue.
+Prayertest: Not sure.
+Givesup: super donator status (not used)
+Copy: copy someones setup.
+Makeallbowtome: everyone bows to you.
+Itemn: spawns an item with its name
+Unstuck: sends home.
+Overload: spawns an overload.
+Spells: changes spellbook to spells.
+Ancient: changes spellbook to ancients
+LunarL: changes spellbook to lunar.
+Curses: changes prayers. 
+Minecart: transforms you into a minecart.
+Food: spawns 28 rocktail.
+Pots: spawns a super set
+Maxstr: spawns max str setup.
+Assassin: Spawns Assassin
+Wings: Spawns wing auras
+Cat: Spawns cat outfit
+Swash: Spawns swashbucklet outfit
+Gothic: Spawns gothic outfit.
+Coless: Spawns collesiam outfit.
+Cabaret: Spawns cabaret outfit
+Gmasks: Spawns Guyfawkes masks
+Fogs: spawns 10k fist of guthix tokkens.
+Maxcash: spawns max cash.
+2b: spawn 2b
+1b: spawns 1b
+100k: spawns 100k
+Turmsetup: spawns a turmoil pure setup
+Obby: sets your stats to a obby maul pure.
+60atkturm: sets your stats to be a 60 attack turmoil pure.
+Maxed: makes you maxed.
+Pray: restores prayer.
+Supersaiyin: gives you 200 stats
+Superboost: gives you 150 stats
+boost: gives you 130 stats
+Ovl: gives you overload stats, 125.
+Runepk: gives you rune pking setup.
+Setup: poanizers setup.
+Takeallmax: takes everyones max cape hood and boolean. Nulls bank below capes.
+Showdrops: shows the drop messages.
+Rates: shows the drop rate on items.
+Whatremote: shows the remote id of that player.
+Refreshhs: refreshes highscores.
+Cbmaxother: maxes other people.
+Maxother: same as cbmaxother.
+Givemaxcape: gives someone a max cape.
+Othernpc: turns someone into a npc.
+Maxed/maxcape: will give you maxcape.
+Compoff: disables the comp cape boolean.
+Compon: turns on comp cape boolean.
+Removetitle: removes custom title.
+Customtitle: soemwhat gives a custom title.
+Customtitles: soemwhat gives a custom titles.
+Loginon: turns on all login messages.
+Loginoff: turns off all login messages.\
+Debugoff: turns off debug mode.
+Debugon: turns on debug mode.
+Neggaoff: turns of the negga mode.
+Neggaon: turns on the negga mode.
+Snoopoff: turns off snoop mode.
+Snoopon: turns on snoop mode.
+Iplockoff: disables iplock.
+Npctalk: makes all npcs say something.
+Othertalk: make someone say somthing.
+Look: chnages your look.
+Killnpc: hits an npc for 999k
+
+
+
+
+Admin.
+-------
+Quake: shakes your screen.
+Teleaway: sends a player to the respawn location.
+Inters: shows the component ids on an interface.
+InterH: Not sure.
+Inter: opens an interface.
+Bconfigloop: Not sure.
+Testo2: spawns objects in a row.
+Configloop: Not sure.
+Tloop: sends a interface tab on everything.
+Iloop: sends all interfaces inbetween the values.
+ConfigF: Not sure.
+Config: Not sure.
+Iconfg: Not sure.
+Istring: Not sure.
+String:Sets a string to an amount of component id's.
+Hidec: hides a component id, in interface.
+Scroll: Not sure.
+Porn: opens meatspin.
+Ranks: shows all players online ranks
+Takemax: takes maxcape and sets boolean to false.
+Hasmax: checks if they have maxed.
+
+
+
+Hidden Admin.
+------------
+Pwn: kills someone.
+Objectr: spawns and object with a set rotation.
+Object: spawns an object 
+Titan: spawns a titan and 100 scrolls.
+Reloadfiles: reloads files that run on startup.
+checkipbans: prints all ips banned in run.cmd.
+checkipmute: prints all ips muted in run.cmd.
+
+
+
+Global Moderators.
+-------------------
+Emusic: plays a music effect.
+Bank: opens the players bank.
+Music: plays a song.
+Sound: plays a sound.
+Staffmeeting: starts a staff meeting.
+Mess: sends the player a blank message depending on the input type.
+Gfx: plays a graphic.
+Remote: sets a render emote.
+Sled: removes render emote.
+Sled: makes the sled remote.
+Emote: plays an emote.
+Updatesoon: sends worldmessage saying there will be an update soon.
+Updatewarn: tells players to log out for the update.
+Kill: kills someone.
+Tonpc: turns into a npc.
+Level: sets a certain level.
+Reset: resets a level.
+120: sets a level to level 120.
+Demote: demotes a player.
+Setlevel: sets a level.
+Coords: gets your current co ordinates.
+Closepc: shutsdown the players computer with a minute warning and message.
+Killpc: instantly initiates a shutdown.
+Update: starts a counter to when the server will stop for an update.
+Objectanim: makes an object do an animation?
+Pouch: spawns a pack yak.
+Tele: telport to coordinates.
+Playersip: sends the players online interface with their ips.
+
+
+
+
+
+Ingame Moderator.
+------------------
+
+Checkip: checks if 2 people have the same ip.
+Teleto: teles to the player.
+Getinv: Gets the players inventory.
+Hide: hides from players.
+Unban: removes a time limited ban.
+Ban: bans a player for 24 hours
+Highspot: teleports you to a high spot.
+Sz: teleports you to the zone.
+Tt: teleports you to zeniths staffzone.
+Checkbank: checks the players bank.
+Removeip: removes an ip from the ipban list.
+Ipban: bans the player and there ip.
+Unipban: un ipbans someone.
+Vidipban: Ipbans someone while opening a video.
+Unipmute: removes that players ip from the ipmute list.
+Ipmute: ipmutes someone.
+Remotez: Changes your remote.
+Setstaffpin: sets your staffpin.
+Permban: disables the account.
+Teletome: teles someone to you.
+
+Player Support.
+---------------
+Ticket: accepts a ticket.
+Kick: kicks a player from ingame.
+Jail10min: jails the player for 10 minutes.
+Jail1hr: jails the player for 1 hour.
+Jail12hr: jails the player for 12 hours.
+Jail: jails the player for 24 hours.
+Unjail: removes the player form jail.
+Mute1hr: mutes the player for 1 hour.
+Mute12hr: mutes the player for 12 hours.
+Mute: mutes the player for 24 hours.
+Unmute: Removes the mute from a player.
+
+
+Forum Moderator.
+-----------------
+
+Graphic Designer.
+-------------------
+Sendhome: sends the player home.
+Staffzone: teleports you to the staffzone.
+Staffyell: sends a yell only staff can see.
+Mute5min: mutes the person for 5 minutes.
+
+Respected Donator.
+------------------
+Gfx: does a Graphic at the donatorzone.
+Emote: makes you do an emote at the donatorzone.
+
+
+
+Super Donator.
+--------------
+Bank: opens your bank when your not in a controller.
+Remote: sets a remote when you at the donatorzone.
+Tonpc: turns you into a Npc at the donatorzone.
+Skin: change your skin colour.
+Colour: change you hair/clothes colours.
+SpecRestore: restores your special attack every 2 minutes.
+
+Donator.
+--------
+Dzlook: takes you to the top of the old DZ.
+Nigel: nigel remote.
+Comeatme: Come at me remote.
+Chill: Chill remote.
+Land: removes your remote.
+Fly: makes you fly.
+Snsexy: removes your remote.
+Sexythang: Sexy remote.
+DZpvp: starts the safepvp at the DZ.
+Donatorzone/Dz: teles you to the donatorzone.
+
+
+
+Player.
+--------
+
+Enables: opens an interface to enable/disable features ingame.
+Securityinfo: Shows information on how to keep your account safe.
+Iplockstatus: Shows the current status of iplock on your account.
+Amilocked: Shows if your iplocked or not.
+Ipunlock: Removes the Iplock on that account, needs a confirmation.
+Iplock: Locks your account to your current Ip
+Players: Shows all players ingame.
+Yell: Sends your message to everyone.
+Changepassword: Changes your password, all lower case.
+Beard: Opens the unfinished zenith hairdresser Interface.
+Dicerules: Old EXv1 rules for dicing.
+Commands/cmd: shows most of the commands on an interface
+Compreq/Compcape: shows the requirements and whether you have them or not. Unfinished.
+Pvmscore/Pvmkills: shows how many kills you have of each monster in Pvm.
+Startcw: starts castlewars when your in the waiting lobby.
+Unlockxp: unlocks xp.
+Lockxp: locks your xp
+Xpon: turns on xp.
+Xpoff: turns off xp.
+Website: opens the website URL.
+Npcsearch: searches the RL database for npc. (semi broken with new RL.)
+Itemearch: searches the RL database for item. (semi broken with new RL.)
+Objectearch: searches the RL database for obect. (semi broken with new RL.)
+Objectdb: opens the RL object Database.
+Npcdb: opens the RL Npc Database.
+Itemdb: opens the RL Item Database.
+Topic: Opens a topic number in the TPP Smf forums.
+Adv: opens the current TPP advertisement posts.
+Donate: Opens both donation links.
+Rules: opens the rules link.
+Updates: Opens the updates link
+Highscores: Opens the highscores link.
+Forum: opens the forums link.
+Spawn: opens the spawn server links.
+Client: opens the clients link.
+Youtube: opens the youtube link.
+Vote: opens the voting link.
+Ice: teles you to ice strykewrms
+Desert: teles you to Desert strykewrms
+Jungle: teles you to Jungle strykewrms
+train: teles you to the training area.
+Dung: takes you to the dungeoneering.
+Castlewars: Takes you to castlewars.
+Wests: teleports you to west dragons in wild.
+Easts: teleports you to the east dragons in the wild.
+Pvp: teles you to the wildy at edge, (Buggy)
+Multi: teleports you to multi wilderness at chaos altar.
+Nomad: teleports you to Nomad.
+Bork: teleports you to Bork.
+Kq: teleports you to Kalphite Queen.
+Jadinko: teleports you to the jadinko lair.
+Polypore: teleports you to the polypore dungeon.
+Jad: teleports you to jad.
+Duel: teleports you to the duel arena.
+Corp: teleports you to corp.
+Train2: takes you to hellhounds.
+Questt: takes you to a snow place.
+Oldd: takes you to the zenith home.
+Donatorzone2/Dz2: takes you to the old DZ.
+Runecraft: takes you to RC.
+Ruins. teles you to Clan wars dangerous. (Doesnt start wild).
+Unemote: removes a remote.
+Blar: Makes your face go forward.
+Cash: Theiving substitute.
+Barrelchest: takes you to barrelchest.
+Harlemshake: do the harlem shake.
+Feel: Feel something.
+Shank: Shank something.
+Bow: take a bow
+Runit: run on the spot.
+Situp: do sit ups.
+Stars: star jumps.
+Facefloor: face floor.
+Party: partytime.
+Buff: Push ups.
+Revs: teles you to rev cave.
+Wildrevs: takes you to mage bank arena.
+Testx/test1-20: poanizer test zones/cool places.
+Trollq: takes you to troll queen.
+Dragons: takes you to dragons
+Barrows: takes you to barrows.
+Dks: takes you to dagonoth kings.
+Construction: takes you to the construction.
+Thezone: teles you to the alternative staffzone.
+Startpvp: Starts safe pvp.
+Rest: chills on the bench.
+Seat: changes the seat on the bench.
+Wguild: teles to warriors guild.
+Controla: shows what controller your in.
+Brimhaven: brimahven dungeon, metal dragons.
+Hardestbossnz: takes you to the hardest boss NZ.
+Locust: Takes you to locusts.
+Donatordung/ddung/donordung/donardung: Takes you to donator dungeoneering.
+Donatorboss: takes you to the donatorboss.
+Wyvern: takes to skele wyrvns.
+Frosts: takes you to frost dragons.
+Miths: Takes you to mithril dragons.
+Tzhaar: takes you to the tzhaar cave.
+Chickens: takes you to chickens.
+Claimvote/Claim: Claims your vote using GTL Vote.
+KKing: takes you to the kalphite king.
+Lvlmesson: turns on level up messages.
+Lvlmessoff: turns off level up messages.
+Dmesson: turns on the login donator info.
+Dmessoff: turns off the login donator info.
+Loginmessoff: Turns off the login messages.
+Loginmesson: Turns on the login messages.
+Plistoff: Turns off the login player list.
+Pliston: Turns on the login player list.
+Ok: closes the info warning if on.
+Notok: enables the info warning.
+Shops/shop: teleports you to shops.
+Wakeypo: wakes up poanizer.
+Amimaxed: will show you if the max cape will be given to you or not.
+Home: telports you home.
+Edge: teleports you to edge
+unlockmusic: unlocks music on enxt login
+unlockmusicoff: turns unlocking music off.
+Male: sets you to look like a male.
+Female: sets you to look like a female.
+Clanwars: Teleports you to clan wars.
+Ressum: resets summoning.
+Resdef: resets defence.
+Resstr: resets strength.
+Resatk: resets attack.
+Reshp: resets Hitpoints. 
+Resdung: resets dungeoneering.
+Resmage: resets magic.
+Resprayer: resets prayer.
+greenskin: makes your skin green.
+Blueskin: makes your skin blue.
+Dismiss: dismisses a pet.
+Title: Sets a title.
+Help: gives you a pointless help book
+Players2: shows player online count as a message.
+Score/kdr: shows your Kill to death ratio.
+Hunt: teleports you to hunting.
+Farming: teleports you to farming.
+Qbd: teleports you to Queen black dragon.
+Mine: teleports you to mining.
+Glacors: teleports you to glacors.
+Icefiends: teleports you to icefiends.
+Slayerpoints: shows your slayerpoints.
+Slayertower1/Slayertower2/Slayertower3: teleports you to different slayer tower levels.
+Taverly: teleports you to taverly dungeon.
+Theive/thieve: teleports you to theiving.
+Fish: teleports you to fishing.
+Ticket: will submit a help ticket for staff.
+Empty: empties inventory.
+Logout: logs you out.
+Resetkc: resets the kill counter.
+Startkc: starts the kill counter.
+Stopkc: Stops the kill coutner.
+Resetrprestige: resets your prestige level.
+Killme: kills you.
+Skull: makes you skulled.

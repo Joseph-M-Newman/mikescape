@@ -1,0 +1,3 @@
+Dialougue handler 
+Dialougues (create one, copy mr ex or other as a base)
+npchandler (match the dialougue to the npc)

@@ -1,0 +1,155 @@
+Changed KK Script.
+Fixed wing auras 
+Added music unlocking. All but 10? tracks.
+add darts and dragon range to donator store
+Added more emotes
+Pets donator only
+add Kal and firecap to nontrades
+Fixed trade same tile bug
+Added a rare drop log.
+Edited some item prices. Herbs, Fogs. 
+Renamed "Cullinomancer" gloves to armour names
+;;amimaxed cmd to test maxing
+backups for ban cmds and on updates
+sara - was 0.1 lucky now 1.
+ganos dropped - fungal 3-2 grif 4-3.
+trade logs added
+added drop rates on forums
+fixed the KKing so you dont lose items on death 
+added a remove ip from banlist cmd.
+moved nomad tele coords forward
+donators have a altar to restore special attack at ;;dz
+made ;;wakeypo cmd, to wake me up if im in another window
+Nerfed barrows 3%-1%
+Nerfed revs 0.8%-0.5%
+Nerfed dks.
+Nerfed corp.
+Fixed iplock. (potentialy failsafe)
+Add a check inv space on the vote claim (havnt tested)
+Fixed duel freeze timer. (cant move till timer is done)
+Added 2nd staff shop (admin only)
+Nerfed firecape from + 11 def to +4 def.
+Made defenders untradable.
+Added gold charms to drops.
+Added fish shop to dz fish.
+Added hunter to dz.
+Added farming to dz.
+fixed furnace
+Fixed dz flag.
+Added Dz agility (but it broke lol)
+edited living minerals from 100 - 1k
+edited new dz skilling.
+added new admin cmd objectr
+fixed setskullother cmd
+added nigels dialogue
+fixed training dialogue 
+fixed safepvp tele on portal
+Donators can use ;;tonpc at DZ
+Supers can use ::Remote and ::tonpc at DZRespected can use ;;gfx and ;;emote at DZ
+Added a safepvp zone - will upgrade and add custom rewards.
+Added shops and red tele-portal. 
+Removed roof and beams of the house. (Wont make sense until released)
+Super Donators can now use ::colour (body part) (id) and ::skin (id)
+Fixed Rocktails, 90 Fishing, 180k xp per.
+Added votes total to the vote point tab.(each time you claim it goes up)	
+Added command ::maxcape or ::maxed to claim your max cape. (due to bug with other method)
+Added Command ::highscores or ::hs
+Added my time zone's time to quest tab
+updated quest
+moved train
+fixed prices. It will no longer change chaotics etc from 100k-100m.
+made charm ring (i) - has stats (donator only)
+removed the GWD controller from gwd since no kill count. ;;bank can be used.
+fixed nex'es gwd controller
+added rock cake in FOG shop.
+added an npc pvp script - unfinished
+fixed uni spec , was 1% now 25%
+fixed nulling bug of po1/po2
+changed dung from 10-5 fogs
+deleted avatar D drops.
+barrows 25-4 fogs
+Added ::Rest / ::SEAT
+Changed Webclient Links that were broken.
+Changed forum icons/permissions.
+Edited the shops bug with "coins" on other currency.
+Fixed a bug with prices in Gem/Herb store.
+Edited the login message (not really worth adding but what ev's)
+Changed ingame to Website etc. links: ;;forum ;;website.
+Highscores have been added. 
+Disabled Admins to be on HS so the top spots will be avaliable for players, so no ::master cheating.
+Edited the ::compreq command
+Lowered rev drop rate. (may be removing some rev items from game due to excess in banks)
+Added the command ;;adv
+Added Forum Menu Links
+Added some commands.
+Edited shops to show a amount with value and the raw price.
+moved shops
+moved altars
+edited guide dialgoue
+added ;;donatorboss, but will probably re add to the portal.
+changed donator dung walls.
+Semi fixed duel equipment slots as inventory items.
+It will at least show your equipment except in the blank spots it will show inventory, will be working on this more soon.
+The bottom image is my inventory. 
+Comp Cape: added ;;compreq command - Unfinished. Pvm kills 99% done.
+Poanizer Donator boss:
+Dialogue change pet/boss. 
+Moved made multi
+Lowered corp drop rate.
+Torag hammers fix
+Added items to Donator list.
+Added FOG drops to dung monsters.
+Fixed Revenant drop rate.
+Added the charm collector ring in FOG shop. (charms go to inventory not floor)
+Added a CB Script to ganodermic beasts.
+Editing Spawn mode, made a cmd list and removed some features/commands.
+Added kill count counter:
+	To activate do ::startkc
+	To Stop do ::stopkc
+	To reset do ::resetkc
+Added Warriors Guild
+Sorted crystal key
+Added rare drop message
+Fixed wguild defenders, raised %.
+Moved Rc portal to home.
+Added a safe pvp area at home.
+Custom titles... sort of.
+Added Drop messages.
+Added more ::enables options.
+Removed ashes from fires.
+Added more admin+ commands.
+removed the teleport from ::donatorboss 
+Removed ice fiends from slayer tasks.
+And thats all i can remember, currently adding CB script to ganos. So that may be on the list soon.
+Done some client fixes. 
+Added more commands: ;;itemsearch, npcsearch, objectsearch, objectdb, npcdb. Mainly helpful for admins.
+Added casket items.
+Changed void vote point requirements
+Changed auras cost.
+Changed the amount of herbs in herb shop
+Moved the startpvp logout location
+Made the crystal key an instant item.
+Donator items no longer show when dropped for non donators. (Soon to be with non tradables)
+The command ::Enables. Created an interface to enable/disable the features, The features are toggled by clicking on the button and the colour will change to represent its status. There is also command equivalents.
+The IPLock security update. With IPLock you can secure your account to only be able to login with the Ip you set on your account. Type ::Securityinfo ingame for more instructions. IPLock can be Set/Removed and Disabled. It will also notify you if you already have locked an IP on your account. If someone/another IP tries to log onto your account while your IPLock is enabled they will be instantly kicked and a Login Message will be created for the next time you log in. Am planning on making 2 Ip's allowed soon for multiple houses.
+Forums and the updating player count. Have created the forums and set an in game player count that actually works. Unlike all the ones you see on Templated servers.Currently Admin Command only but am planning to enable it for Every Login/Logout depending on Lag/Connection. Should be implemented tomorrow
+Login Background and Custom Swirl Loader. Not much to say about this really. 
+Antifires now in Food and Pot Shop. 2k each
+
+
+Base changes from EXv2:
+-----------------------
+More commands.
+New Home.
+More items.
+Custom Npcs.
+Custom Items.
+More Bosses.
+Changed All Skilling xp rates.
+Added an antihack system: Snoop, login messages with rights, 
+Added a Console Snoop system: shows clicks,trades,chats,logins with more info.
+Drop fixes.
+Slayer Points/Slayer Shop
+Custom pets.
+Pets fixed.
+Bank tabs.

@@ -1,0 +1,13 @@
+Either use the Webclient V2 or The Clean webclient.
+
+Webclient V2 has the styling inside the ht,mml file. But it looks cluttered.
+
+The clean one uses a .css file.
+
+CHANGE THESE
+------------
+1: <title>RSPS.</title> What ever is in between those tags will appear on the tab in the browser.
+
+2: href=" " What ever is in between the 2 quote marks you need to change to match your links
+
+3: archive="LINK TO YOUR CLIENT!"   Change the text in between the quote marks to a link to your client.jar file.

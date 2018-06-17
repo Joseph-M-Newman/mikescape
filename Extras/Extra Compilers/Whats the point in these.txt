@@ -1,0 +1,5 @@
+Sometimes you may find it quicker to use these compilers than the main one.
+
+Sometimes you need to , like for combat scripts since they are not compiled with the normal one.
+
+You will need to edit the path though.

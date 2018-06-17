@@ -1,0 +1,83 @@
+15332	Overload (4)
+15272	Rocktail
+15273	Rocktail
+3024	Super restore (4)
+15300	Recover special (4)
+
+13885	Statius's platebody
+13891	Statius's platelegs
+13897	Statius's full helm
+13882	Morrigan's javelin (p++)
+13883	Morrigan's throwing axe
+
+
+13734	Spirit shield
+13735	Spirit shield
+13736	Blessed spirit shield
+13737	Blessed spirit shield
+13738	Arcane spirit shield
+13739	Arcane spirit shield
+13740	Divine spirit shield
+13741	Divine spirit shield
+13742	Elysian spirit shield
+13743	Elysian spirit shield
+13744	Spectral spirit shield
+13745	Spectral spirit shield
+
+22362	Swift gloves (black)
+22359	Goliath gloves (white)
+
+20135	Torva full helm
+20136	Torva full helm
+20137	Torva full helm
+20139	Torva platebody
+20140	Torva platebody
+20141	Torva platebody
+20143	Torva platelegs
+20144	Torva platelegs
+20145	Torva platelegs
+
+
+20147	Pernix cowl
+20148	Pernix cowl
+20149	Pernix cowl
+20151	Pernix body
+20152	Pernix body
+20153	Pernix body
+20155	Pernix chaps
+20156	Pernix chaps
+20157	Pernix chaps
+
+20159	Virtus mask
+20160	Virtus mask
+20161	Virtus mask
+20163	Virtus robe top
+20164	Virtus robe top
+20165	Virtus robe top
+20167	Virtus robe legs
+20168	Virtus robe legs
+20169	Virtus robe legs
+
+
+11694	Armadyl godsword
+11695	Armadyl godsword
+11696	Bandos godsword
+11697	Bandos godsword
+11698	Saradomin godsword
+11699	Saradomin godsword
+11700	Zamorak godsword
+11701	Zamorak godsword
+
+
+18349	Chaotic rapier
+18351	Chaotic longsword
+18353	Chaotic maul
+18355	Chaotic staff
+18357	Chaotic crossbow
+18359	Chaotic kiteshield
+
+
+16955	Primal rapier
+16956	Primal rapier
+
+

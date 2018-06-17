@@ -1,0 +1,130 @@
+RANDOM
+0 82 headless minecart
+
+
+Look 0 (Hair style MAN)
+--------------------------
+0 bald
+2 long hair
+3 medium hair
+4 monk
+5 short
+6 close cropped 
+7 wild spikes
+8 spikes
+91-97 new haircuts
+
+Look 0 (Hair style WOMAN)
+--------------------------
+45 bald
+46 bun
+47 dreads
+48 long
+49 short
+50 pigtails
+51 crew cut
+52 close crop
+53 wild spikes
+54 spikes
+55
+
+
+
+Colour 0 (Hair)
+-------------------------
+1 white - monastary white
+2 grey - military grey
+3 black - tarnished iron
+4 orange - phoenix orane
+5 yellow - golden hoard
+6 brown - longbow brown
+7 brown - willow brown
+8 blue - runeplate blue
+9 green - cooking apple
+10 red/orange - ruby vermillion
+11 pink - HAM violet
+12 black - zamorack black
+13 grey - smith taupe
+14 creame - dagonoth grey 
+15 peach - ripe peach
+16 light blue - saphire glacials
+17 blue - saradomin blue
+18 pink - bloodveld pink
+19 light red - brine red
+20 dark red - blood red
+21 light green - mint cake
+22 dark green - jade vine green
+23 purple - chaotic indigo
+24 light purple - void purple
+25 brown - mahogony brown
+
+
+Colour 1 (Shirt)
+--------------------------
+1 black
+2 red/maroon
+3 dark blue
+4 light yellow/mustard
+5 light cream
+6 dark orange
+7 light blue
+8 light green
+9 grim yellow
+10 purple
+11 grungy orange
+12 light pink
+13 mint green
+14 light blue 
+15 dark green
+16 black
+17 greyish brown
+18 cream
+19 orange
+20 another blue
+21 dark light blue
+22 light pink
+23 light cherry
+24 blood red
+25 another mint
+26 dirty dark green
+27 purple
+28 light purple
+29 orange
+30 dark orange
+31 light pink
+
+Colour 2 (pants)
+--------------------------
+1 light green ish 
+2 black
+3 red
+4 blue
+5 mustard
+6 light dirty white
+7 orangey red
+8 darkish blue
+9 green
+10 yellow
+11 purple
+12 dirty orange
+13 faded purple
+14 mint
+15 light ish blue
+16 very black
+17 "Man" grey
+18 another mint
+19 light orange
+20 very light blue
+21 dark blue
+22 light dirty pink
+23 cherry
+24 blood red 
+25 mint
+26 dark dim green
+27 purple lightish
+28 light pinky purple
+29 dirty orange
+30 orange
+
+48 nice red
+

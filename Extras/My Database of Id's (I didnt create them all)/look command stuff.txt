@@ -1,0 +1,176 @@
+look[0] = 48; // Hair
+		look[1] = 57; // Beard
+		look[2] = 57; // Torso
+		look[3] = 65; // Arms
+		look[4] = 68; // Bracelets
+		look[5] = 77; // Legs
+		look[6] = 80; // Shoe
+		---------------
+FEMALE:
+1:BEARD
+57 none.
+
+2:TORSO
+56 closed shirt, Scoop Neck
+57 Boob tube, line down middle.
+58 closed top, small u collar
+59 glitchy shirt , half c collar
+60 hourglass closed shirt, c collar
+
+3: ARMS
+61 shoulders
+62 strapped
+63 broaded sholders
+64 flared
+65 long cuffed
+
+4:Bracelets
+68 none
+69 silver
+
+5: legs
+70 long skin tight
+71 mid skirt
+72 flared
+73 long skirt
+74 long skinny skirt
+75 ripped
+76 side stiched cuffed tight.
+77 mid skirt slightly flared
+
+6:SHOE
+80
+
+MALE:
+
+2:TORSO
+18 shirt
+19 buttons white
+20 black stiching
+21 open colars
+22 open pockets
+23 front slashes/lace
+24 loose t
+25 half n half
+
+3:ARMS
+26 normal
+27 buff
+28 sleeves
+29 cuffed sleeves
+30 long skinny end
+31 shoulder spikes
+
+
+
+4:Bracelets
+34 no brace
+35long brace
+
+
+5:Legs
+36 skinny cuffed
+37 shorts
+38 flared
+39 side stiched cuffed long
+40 torn
+
+6:shoes
+42 fat
+43 skinny`
+
+
+
+
+
+
+EXTRAS
+--------------
+85-90 pants
+91-96 new hair
+98-104 new beards
+105-110 interesting arms
+110-116 interesting shirts.
+117-126 braclets
+
+HELMS
+----------
+129 Addy helm
+132 verac helm
+137 ady bucket helm h4
+141 hood
+142 pink afro
+
+
+BODY
+----------
+130 rune plate
+133 tribal shirt
+154 smart red shirt
+
+
+WEAPONS
+----------
+128 bow
+131 slayer staff
+134 rolling pin
+139 advandis flail
+143 keris
+144 random staff
+145 primal dag p++?
+147 pipe staff?
+158 urn
+150 recoloured robinh hood white.
+
+
+
+
+5 85 "men in tights" look , undys on outsidem, belt.
+5 86 "men in tights" look , shorts ontop of pants.
+5 89 one short leg more ripped with patch
+5 90 tattered pants
+
+
+
+
+
+
+
+
+
+---------------
+4 20+ shirts
+4 27+ arms
+4 32+ hands
+4 36+ pants
+4 42+ feet
+4 60+ girl top
+
+1 56+ girl top
+
+3 83 minecart arms
+
+
+380- cool stuff
+
+
+cool minecart look 1
+-----------------------
+look
+0 7
+1 390
+2 21
+3 27
+4 35
+5 38
+6 83
+
+colour
+0 17
+1 32
+2 32
+
+
+Other cool looks
+----------------------
+6 88 fat pants

@@ -1,0 +1,53 @@
+10961 - claws
+7039 - 2h running anim
+7040 - 2h walking anim
+7041 - 2h hit
+7042 - 2h hit
+7047 - 2h wielding
+7048 - 2h smash
+7049 - 2h defesive attack
+7050 - 2h block
+4177 - Defender block
+4230 - C'bow attack
+4410 - Vengeance
+4411 - Veng-Other
+4413 - NPC Contact Emote
+4433 - Fletching a log with a knife
+4442 - Creating a Rune c'bow
+4462 - Enchanting Bolts
+4532 - Sitting on Crystal throne
+4534 - Sitting on Demonic throne
+4731 - Teleporting using a Teleport Tablet
+4847 - Home teleport
+4853 - Home teleport 2
+4855 - Home teleport 3
+4857 - Home teleport 4
+6696 - Dragonfire shield charging
+6696 - Dragonfire shield special
+6700 - Removing the charges from your dragonfire shield
+6702 - Fletching a log with a knife
+6706 - Harpooning sharks with your arm
+6709 - Harpooning with your arm
+6719 - Making a fire from a magic shortbow
+6746 - New mining animation with Rune Pickaxe
+7002 - H`ammer against bandos door to get into the Bandos area in God wars Dungeon
+
+7070 - Zamorak godsword special attack
+7071 - Saradomin godsword special attack
+7072 - Saradomin sword special attack
+7073 - Bandos godsword special attack
+7074 - Armadyl godsword special attack
+7081 - Rune C'bow animation from God wars Dungeon getting across the floor into Armadyl area
+
+7076 - cool jumping
+7078 - stab with 2h
+7081 - fast swing
+7082 - tree gnome tele
+7084 - gnome apear
+7095 - cool dance
+7096 - stunned
+7112 - `push emote
+7113 - other push
+7135 - super strecth
+7139 - mix 
+7144 - pour up

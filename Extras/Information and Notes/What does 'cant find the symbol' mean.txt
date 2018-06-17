@@ -1,0 +1,9 @@
+ok well it basicaly means it cant find that method. if you look at the imports on the top of the file those are all the files it imports when you see Player. something that means its a method in the player.java fil
+e so it needs and import of "import src/com/rs/game/player/player;"
+which gets the file player.java from its location and therefore the file can read all the methods in there, with some exceptions.
+
+
+
+*Note*
+
+I dont know the technical side that well of java so this may be semi inaccurate.

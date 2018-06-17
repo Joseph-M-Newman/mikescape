@@ -1,0 +1,54 @@
+
+
+Facepalm: anim 2254
+ROFL: anim 2347
+Hula Hoop: anim 12928
+Ghost: Anim 12932 / GFX 1762
+Cat Fight: 2252
+Head in Sand: anim 12926, gfx 1761
+Muscle Man Pose: anim 2566
+Evil laugh - Emote : 15535
+Bring it - Emote : 12934
+
+Unsorted
+Code:
+
+Puppet Master -- GFX: 2837 / Emote: 14869
+Invoke Spring --  Emote: 15357 / GFX: 1391
+New Home tele -- Emote : 16385
+Taskmaster -- Emote : 15034 /  GFX: 2930 
+Dramatic Point -- Emote : 12658 /  GFX: 780
+Emote : 14165 // Faint
+Emote : 12932 //IDK I think it is loyalty
+Emote : 12931 //IDK It is loyalty
+Candy Cane Spin : 12664
+Emote :emot 12929 //No Idea but its cool
+
+GFX Only - Cant find Emotes yet. Sorry (Green = Found)
+Code:
+
+Emote : 15524 / GFX : 2195 // Divine Power
+Emote: 15604 / GFX : 2239 //Chaotic Cookery
+Emote : 15529 / GFX: 2197// Infernal Power
+GFX : 2196 //Tornado ;)
+
+All Credits to Intensive Tony (On RL) for this list below
+Code:
+
+Breathe fire gfx: 358 / Breathe Fire Emote: 2238
+Levitate Emote: 2327
+ROFL Emote: 2347
+Surrender Emote: 2360
+Highfive: 2312
+HandShake: 2303
+CAtfight: 2252
+Facepalm: 2254
+Talk to then hand: 2416
+Snow emote: 2417 / Snow Gfx: 364
+Muscle man pose: 2566
+Storm emote: 2563 / Storm Gfx: 365
+
+Hope this is useful! I will update if I find anymore.
+-Chris.
+
+Edit:

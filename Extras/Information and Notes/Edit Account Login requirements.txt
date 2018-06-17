@@ -1,0 +1,19 @@
+to edit what names accounts cant have in them or editing how many accounts people can have logged in on the same ip
+go to LoginPacketsDecoder.java and edit the different files.
+
+
+
+
+I think......
+
+--------------------------------------------------------
+if (username.length() <= 1 || username.length() >= 15
+
+is how you edit the amount of characters in and avaliable to be used in new account names.
+
+
+
+--------------------------------------------------------
+if (AntiFlood.getSessionsIP(session.getIP()) > 3) {
+
+is how to edit how many players can be logged in on the same ip.

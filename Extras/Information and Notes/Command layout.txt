@@ -1,0 +1,25 @@
+my commands are based on the custom right tutorial by someone called Ifi, i think thats thier name.
+Its skightly different as now there are 12 rights rather than 4. its still the same layout basicly
+
+
+each set of rights is marked out by the //Name at the start so for example owner will have //Owner
+at the beginning and //Mod is commands for mods. 
+
+Whoever has there lot of commands the highest up will be able to use any command that is under it
+so for example if we have something below.....
+
+
+//Owner
+
+if cmd = "Ban"{
+Ban}
+
+
+//Mod
+
+if cmd = "teleto"
+
+
+the owner can still use the command "teleto" even though its listed under a mod command. this is
+because the owner is higher up in the lines than mod and can use any command under him. This goes for
+all rights. the setright can use any command listed below it.

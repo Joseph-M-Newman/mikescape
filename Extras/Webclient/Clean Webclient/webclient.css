@@ -1,0 +1,101 @@
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    background: black;
+    width: 100%;
+    height: 100%;
+  }
+  td {
+    text-align: center;
+  }
+  #tb {
+  margin: auto;
+  width: 766px;
+  height: 90px;
+ }
+  .minheight {
+    width: 0;
+    height: 503px;
+  }
+  applet, object, embed, comment {
+    margin: 0;
+    padding: 0;
+  }
+  .online{
+  background-color: #ff0000;
+  float: left;
+  height: 200px;
+  width: 200px;
+  
+  }
+  #gametable {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #gamecell {
+    width: 5000px;
+    height: 100%;
+  }
+  #gameframe {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  #menu {
+    margin: auto;
+    width: 513px;
+    height: 27px;
+    font-size: 12px;
+    background: transparent url('http://www.rspscoding.org/upload/archive/332758221.png') left top no-repeat;
+  }
+  #menu div {
+    float: left;
+    padding: 4px;
+  }
+  #menubox {
+    padding: 0 0 5px;
+  }
+  /*button look*/
+  #home, #forums,#DLclient, #guides, #accmanagement, #report, #donate , #errors{
+    float: left;
+    height: 19px;
+    line-height: 17px;
+    color: #e8d800;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: url('http://www.rspscoding.org/upload/archive/1528357857.png');
+  }
+  /* Button width */
+  #home, #forums,#DLclient, #guides, #report, #donate, #errors{
+    width: 101px;
+    background-position: left top;
+  }
+  }
+  #home:hover, #forums:hover,#DLclient:hover, #guides:hover, #report:hover, #donate:hover , #errors:hover {
+    color: black;
+    background-position: left bottom;
+  }
+  #textbar {
+    position: absolute;
+    right: 47px;
+    top: 2px;
+    width: 86px;
+    height: 15px;
+    line-height: 15px;
+    border: none;
+    padding: 0 0 0 1px;
+    background: white;
+   }

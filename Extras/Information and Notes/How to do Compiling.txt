@@ -1,0 +1,7 @@
+To compile always make sure you run it as administrator if it doesnt seem to be working.
+
+When compiling make sure your compiler is set to in the correct path of your JDK
+
+dont always think that compiler.bat will compile the file you want.
+
+If it still isnt working. Make a custom compiler by editing the path.

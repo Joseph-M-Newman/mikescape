@@ -1,0 +1,23 @@
+RC tokkens which can be spent at pk point, are obtained by killing revs and player.
+Move revs to Real spot + make it wild/multi.
+Create trade logs.
+Make spells able to use "cast".
+More bosses using scripts.
+Mods have right click mute/kick.
+Donatorzone players can use ;;tonpc/remote/emotes.
+Move dice message to FC.
+Make minigames: SW, PC, and make rewards: clue scrolls, giftbox, money, FOG tokens, Void.
+Fix Skilling prices.
+Possibly move back to economyprices.java
+To keep players motived in pvm/pvp/skilling need to have good rewards.
+Let players join before everything is fixed to show we do updates and have the "wow active updates" affect.
+100% hidden admin which doesnt show on ;;players.
+last logged in from "ip" hiding admin+ ip's.
+Custom armours: Gold mining = Melee, X = Range, X = Mage.
+Get "Enchant" spell to work.
+Send high ranked players ingame messages when people try log into admin accs/hacks.
+Alternative Dung game: custom zone , kill npcs for drops: rusty coin/xp lamps(dung).
+Commands with ip: ;;ipkick if(ip = 127.0.0.1) kick.
+Rename bucket of milk to bucket of cum.....
+add banned login interface commands.
+

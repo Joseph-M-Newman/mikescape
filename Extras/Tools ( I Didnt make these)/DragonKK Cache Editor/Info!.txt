@@ -1,0 +1,2 @@
+The 718 folder is for the cache editor & packer!
+The cache folder is for the Itemdefinitions editor!

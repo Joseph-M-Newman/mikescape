@@ -1,0 +1,5 @@
+To change text ingame you will need to use the <col= > tag.  after the = sign you need to add a HTML colour code. I always used this site 
+
+http://html-color-codes.info/
+
+An example of RED is <col= FF0000>  the first 2 00's are red, 2nd 2 are green and 3rd 2 are blue or something along those lines.  00 00 00

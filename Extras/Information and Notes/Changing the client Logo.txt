@@ -1,0 +1,11 @@
+To change the client logo follow the steps below.
+
+
+1. Open your client folder.
+2. Go to bin/resources.
+3. Add your own image named "icon.png" 
+
+85 x 85 is recommended resolution.
+
+Then each time you run the client you will have a custom icon.
+Remember you need to re Jar your client.

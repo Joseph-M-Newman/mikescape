@@ -1,0 +1,17 @@
+This is the same for Controllers.
+-------------------------------
+
+Make a dialogue
+
+then add it do dialogue handler
+
+
+
+
+
+In dialogue handler add one of these for all new dialogues
+------------------------------------------------------------------
+Class<Dialogue> value117 = (Class<Dialogue>) Class
+			.		forName(Reply.class.getCanonicalName());
+			handledDialogues.put("Reply", value117);
+------------------------------------------------------------------

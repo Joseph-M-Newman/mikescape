@@ -1,0 +1,3 @@
+This is not my highscores. I didnt make it. To make it work upload the highscores folder and import the poanizer_highscores SQL. 
+
+Edit what you need

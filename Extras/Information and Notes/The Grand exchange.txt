@@ -1,0 +1,10 @@
+Do not use the grand exchange. Unless you fix it people can dupe on it.
+
+This is because the noting system just gets the next id after the normal items id. 
+
+Some items noted form is not the next id. 
+
+An example of this is if you buy 100 adamant claws, you will get a full inventory of rune claws.
+This is because the adamant claws id is 3100 the noted form should be 3101 but that is the id of rune claws instead.
+
+so when you pay for adamant claws it will give you rune claws instead.

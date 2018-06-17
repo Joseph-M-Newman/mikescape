@@ -1,0 +1,99 @@
+To do list:
+-----------
+
+CB script idea: guy whos weak, heals , but charges up every 1/2 attack each time he charges he gets stronger.
+when reaches say 50 charges he does a 1 hit ko.
+
+Add packs: rtocktail, sara brew, super restore. 
+6m 10k rocks, 2.1m 5k super restore, 1.25m for 5k brews
+
+DZ:
+	add a magic tree ivy style:
+		object 10535349 
+
+
+
+- planning on adding a "donator chest" Like C Key chest, except every 24 hours donators can open it for a random prize. Wont be large but still not pointless.
+- Working on a small "Minigame", where you grind wheat for points or kill enchanted spades, cos Yolo, to get special items, such as grain sack, Nigel Pet/stance and a potential new weapon, which im sure not everyone will approve of..... The Spade Blade! 
+- Also will be adding pets for donators in the next few weeks as well. ( May release a few F2P pets. But dont want them to be overloaded)
+
+
+
+wguild armour can be spawned on any object - dunno, wguild click 1 overide?
+Move nomad tele coords up
+add an ignore system
+add armour shop to wguild
+add a cb xp lock.
+make it so you don't lose ddef/capes/gloves
+try fix smelter
+Fix Jadinko male to not be op
+New slayer master: donator only. copy dialogue. 
+fix the settings to stay . Eg fc colour.
+add a domin ring, with view platform for people to watch. - use boxing coords add a wall and use the camera changer/inter.
+fix pker script
+finish quest cutscene
+remove qbd game messages
+pvp points to compreq
+add rewards to minigames
+add a times voted counter, use pk rank system?
+minions? 
+add rfd?
+fix skill pots
+for ge. do if noted, check name, if same yes if not no.
+antihack - cmd anti antihack, player.oldpass during antihack.   cmd will: setpassother(p2.oldpass)
+add donator unable to be equiped in invent 
+add nontrad not to be dropped
+jad harder?
+donator tonpc area
+super donator tonpc controller.
+trimmed - 200m all skills , ????
+row , enchanting
+finish con- price etc.
+fix hunter freezes
+add fog to dz boss
+add chaos dwarf
+fix bank tab icons
+add beetle bits from KK sell for 5-10m?
+Test new whips which dont let you use SS/prayers.
+Rework FOG Shop- emotes: non command ones, check if g is in c key chest, add decorative armour - Cwars? varock one? falador shields? , recolored whips? 
+make bonecrusher work
+
+BUGS
+-----
+- hunter con swap
+
+
+
+
+
+
+EXV1 Released "Unfinished content"
+---------------------------------------
+-Unfinished-
+	-Heal other spell - unfinished, was curious if i could get it working when making crumble undead.
+	-Oger Games minigame - was a thieving skiller based minigame which players could steal from the coffins and sometimes an ogre may appear. you would eventually find a key which would unlock the bosses tomb where you could either fight him or use skills for the reward.
+	-Crystal key chest - Was a basic piece of new content i threw in when i originaly ran my server so it wasnt developed at all.
+	-Lucien Boss - havnt added the drops yet, was thinking of doing high cash reward and possible korasi
+	-The random event on the thieving stall doesnt work 100% but still stops autoclickers. I just never understood how to work interfaces when i coded it so it wasnt finished.
+	-Troll queen and DKS not finished, drops havnt been added.
+	-DKS isnt multi yet.need to get the area coords for the DKS and add it to the multi list.
+	-Dagonoth prime has jacked up attacks its pretty funny :P i make it like that though
+	-Construction guide. My method of construction was very complex in a way, it involved a lot of different combinations which i was going to make more profitable the higher your level																																							^^
+
+-Bugs-
+	-Sometimes the Ge prices do not always match the trade prices. I have recently found out its because of my shop.java item price method, or atleast i think it is. Its because economy prices is the default and i have changed methods therefore the ge checks economyprices.to set teh prices right you need to check the sell value in a shop so left click an item when a shop is open. this si for chaotics and most items in the ss1 and nonex i think.
+	-the odd time nearing th end of running my server i noticed bandos didnt always respawn this was not very often maybe every month or so, btu to fi it just restart server.
+	-Occasianal noclip can happen. this means your player moves 1-2 tiles of thier real position. you may see yourself wal through walls yet nobody else sees it. to fi just relog.
+	-pets dont disapeer if you logout. never bothered trying to fix this since i dont see much point in pets to be honest. 
+	-"cast" doesnt work on most ancient spells. never knew why.
+	-Sort of a bug but not really, anyone with any right higher than player i think needs to use developer console or ;;. this comes with custom rights and havnt figured out how to fix it yet.
+	-Sometimes when you type a command you get the message sent twice. In short, i dont know how to fix and havnt tried since i dont think it makes much of a difference/problem.
+	
+	
+	*Note*
+	There may be more bugs and are some other things that are unfinished or may not work properly 
+	which i forgot about.
+	
+	
+	
+	

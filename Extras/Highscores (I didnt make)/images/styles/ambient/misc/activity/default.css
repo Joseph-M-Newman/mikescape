@@ -1,0 +1,6 @@
+body {background-color:#404040;}
+img {border:inset 1px #808080;background-color:#000000;}
+img.postsl {border-right:none;}
+img.postsr {border-left:none;}
+img.posts {border-left:none;border-right:none;}
+

@@ -1,0 +1,33 @@
+How to add a custom background for your RSPS login screen.
+
+
+
+Step 1:  find an image.
+
+Step 2:  Save it as 502 colours and resize it to fit (or use any image in "502 coloured").
+
+Step 3:  Crop the images into 8 squares (Use the "RuneScape Background Utility" In "Tools")
+
+Step 4:  Get a sprite editor ( Use "Sprite Editor And Symbols" in "Tools") and add them into it.
+
+
+
+---------------------
+
+Tutorial video: http://www.youtube.com/watch?v=jrY40DcWUDc
+
+
+-----------------
+
+In the folder "502 Coloured" there are Gif's which are saved ready for being split.
+There are also Pre-Split images since I know some people will be lazy or it may not work.
+
+
+
+In the folder "Photoshop files" the original photoshop files are there if you would like to edit them.
+I give anyone permission to edit the images and post them where ever just dont claim you
+made 100% of it.
+
+
+In the folder "PNG" is PNG files of the images, for what ever reason. Maybe you want them
+as a desktop background :)

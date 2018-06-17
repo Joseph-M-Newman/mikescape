@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/RuneScape Background Utility/Background Cropper.iml" filepath="$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/RuneScape Background Utility/Background Cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/DragonKK Cache Editor/DragonkkCacheReader.iml" filepath="$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/DragonKK Cache Editor/DragonkkCacheReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/ItemDef Editor/FileStoreSRC.iml" filepath="$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/ItemDef Editor/FileStoreSRC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/NewItemDefeditior/NewItemDefeditior/RSIDE.iml" filepath="$PROJECT_DIR$/Extras/Tools ( I Didnt make these)/NewItemDefeditior/NewItemDefeditior/RSIDE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zenith.iml" filepath="$PROJECT_DIR$/Zenith.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,54 @@
+This is the construction combinations i never could be bothered to get all the ids
+and convert it into item names.
+
+Most benches will be unpacked. some may be packed. Most packed ones are the benches in the 
++ sections.
+
+20360 = workbench
+52776 = clockmaker bench
+
+8794 = saw
+1755 = chisel
+
+wooden bench + work bench 20 = wooden bench
+curved plank + clockmakers bench 30 = clock
+teak plank + workbench 65  = Teak dining bench
+carved teak bench + workbench 70 = carved teak dining bench
+mahogany bench + workbench 80 = mahogony bench
+saw + logs = plank
+saw + oak logs 20 = oak plank
+saw + teak log 50 = teak plank
+saw + mahogony log 70 = mahogony plank
+plank + chisel 15 = tooth plank
+chisel + plank 15 = groove
+groove + toothe 18 = wooden bench
+oak plank + saw 25 = long plank
+long plank + saw 25 = short plank
+saw + oak plank 28 = diagonal plank
+oak plank + magic glue 30 = treated oak plank
+oak plank + chisel 35 = curved plank
+diagonal plank + treated plank 28 = oak bench
+oak bench + steel bar 28 = steel framed bench
+oak bench + steel limbs 28 = bench wth vice
+oak bench + steel dagger 28 = bench with laive
+teak plank + chisel 55 = jointed plank
+jointed plank + short plank 60 = teak dining bench
+teak dining bench + chisel 65 = carved teak bench
+mahogony log + saw 75 = mahogony bench
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

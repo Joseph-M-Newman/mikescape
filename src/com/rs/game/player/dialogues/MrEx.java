@@ -37,16 +37,19 @@ public class MrEx extends Dialogue {
 			else if (componentId == 2)
 			{
 				stage = 3;
-				sendDialogue(SEND_5_OPTIONS, "Agility","Cooking","Crafting","Fishing","More");
+				sendDialogue(SEND_5_OPTIONS, "Skilling", "Agility","Cooking","Crafting","Fishing","More");
 			}
 			//minigames
 			else if (componentId == 3) {
 				stage = 4;
-				sendDialogue(SEND_5_OPTIONS, "MiniGames","","","","");
+				sendDialogue(SEND_5_OPTIONS, "MiniGames","Barrows","Fight Caves","Clan Wars","--","More");
 			}
 			//bosses
 			else if (componentId == 4)
+			{
 				stage = 5;
+			sendDialogue(SEND_5_OPTIONS, "Bosses","God Wars", "Corp","Nex","Nomad","More Options");
+			}
 			//cities
 			else if (componentId == 5) {
 				stage = 6;
@@ -86,7 +89,7 @@ public class MrEx extends Dialogue {
 			} else if (componentId == 5) {
 				stage = 10;
 				sendDialogue(SEND_5_OPTIONS, "Skilling",
-						"Mining", "Smithing", "", "Rock Crabs",
+						"Mining", "Smithing", "Farming", "Summoning",
 						"More Options");
 			}
 		} else if (stage == 4) {
@@ -139,8 +142,7 @@ public class MrEx extends Dialogue {
 			}
 		} else if (stage == 7) {
 			if (componentId == 1){
-				teleportPlayer2(3373, 3891, 0);
-				player.getControlerManager().startControler("Wilderness");
+				
 			}else if (componentId == 2){
 			teleportPlayer2(3507, 9493, 0);
 			}else if (componentId == 3){
@@ -152,6 +154,22 @@ public class MrEx extends Dialogue {
 				sendDialogue(SEND_5_OPTIONS, "Bossing", "Bandos.",
 					"Zamorak.", "Armadyl.", "Saradomin", "More Options");
 				stage = 1;
+			}
+			else if(stage == 10)
+			{
+				if(componentId == 1)
+				{
+					//mining
+					stage = 11;
+					sendDialogue(SEND_4_OPTIONS, "Mining",
+							"Varrock Mine", "Falador Mine", "Al-Karid Mine", "NA");
+				}else if (componentId == 2)
+				{
+			
+				}else if(componentId == 3)
+				{
+					
+				}
 			}
 		}
 		

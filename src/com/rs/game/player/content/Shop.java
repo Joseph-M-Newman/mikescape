@@ -21,7 +21,7 @@ import com.rs.game.player.Player;
 import com.rs.game.player.Skills;
 import com.rs.game.player.Inventory;
 import com.rs.utils.Utils;
-import com.rs.utils.EconomyPrices;
+import com.rs.utils.Prices;
 import com.rs.utils.ItemBonuses;
 import com.rs.utils.ItemExamines;
 import com.rs.utils.ItemSetsKeyGenerator;
@@ -2217,7 +2217,7 @@ public class Shop {
 	//claws
 	
 	case 14484://claws
-                        item.getDefinitions().setValue(1462691247);//buying price
+                        item.getDefinitions().setValue(500000000);//buying price
               			  break;
 						  
 	//shard + pouch 

@@ -104,7 +104,7 @@ public final class EconomyPrices {
 			case 11700:
 				return 110000000;
 			case 14484:
-				return 400000000;
+				return 500000000;
 				
 			case 13746:
 				return 137000000;

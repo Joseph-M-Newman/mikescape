@@ -5,7 +5,7 @@ import com.rs.game.WorldTile;
 public final class Settings {
 
 //Server Name
-	public static final String SERVER_NAME = "The Poanizer Project";
+	public static final String SERVER_NAME = "The Newman Project";
 
 //Information links
 	public static final String WEBSITE_LINK = "http://www.poanizer.com/";
@@ -98,8 +98,8 @@ public final class Settings {
 	public static final int START_PLAYER_HITPOINTS = 100;
 	
 	//Change these to your Home coords. Do ;;coords ingame
-	public static final WorldTile START_PLAYER_LOCATION = new WorldTile(2633,4886, 2);
-	public static final WorldTile RESPAWN_PLAYER_LOCATION = new WorldTile(2633,4886, 2);
+	public static final WorldTile START_PLAYER_LOCATION = new WorldTile(3087,3492, 0);
+	public static final WorldTile RESPAWN_PLAYER_LOCATION = new WorldTile(3087,3492, 0);
 	
 	public static final String START_CONTROLER = "StartTutorial"; 
 	public static final long MAX_PACKETS_DECODER_PING_DELAY = 30000; // 30seconds
@@ -124,7 +124,7 @@ public final class Settings {
 			119, 817677, 1624243};
 		
 
-	public static String[] DONATOR_ITEMS = {"ceremonial", "lucky","Crystal saw", "Inferno adze", "primal", "blue cape", "red cape", "ornament",  "TokHaar-Kal", "dice (up to 100)", "dice (2, 6 sides)", "dice", "completionist", 
+	public static String[] DONATOR_ITEMS = {"ceremonial", "lucky","Crystal saw", "primal", "blue cape", "red cape", "ornament", "dice (up to 100)", "dice (2, 6 sides)", "dice", 
         "(i)", "(or)", };
 		
 	public static String[] NON_TRADABLE = {"7570","23659","20767","20768", "8844", "8845", "8846", "8847", "8848", "8849", "8850", "20072"};

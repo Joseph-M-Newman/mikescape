@@ -23,7 +23,7 @@ public class MrEx extends Dialogue {
 	@Override
 	public void run(int interfaceId, int componentId) {
 		if (stage == -1) {
-			sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+			sendDialogue(SEND_5_OPTIONS, "Select:: ", "Training.",
 					"Skilling.", "MiniGames.", "Bosses", "Cities.");
 			stage = 1;
 		} else if (stage == 1) {
@@ -87,10 +87,10 @@ public class MrEx extends Dialogue {
 			}else if (componentId == 4) {
 				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2539,4712, 0));
 			} else if (componentId == 5) {
-				stage = 10;
-				sendDialogue(SEND_5_OPTIONS, "Skilling",
+				sendDialogue(SEND_5_OPTIONS, "Skillingg",
 						"Mining", "Smithing", "Farming", "Summoning",
-						"More Options");
+						"Return");
+				stage = 10;
 			}
 		} else if (stage == 4) {
 			if (componentId == 1) {
@@ -153,20 +153,51 @@ public class MrEx extends Dialogue {
 			}else if (componentId == 5) {
 				sendDialogue(SEND_5_OPTIONS, "Bossing", "Bandos.",
 					"Zamorak.", "Armadyl.", "Saradomin", "More Options");
-				stage = 1;
+				stage = -1;
 			}
 			else if(stage == 10)
 			{
 				if(componentId == 1)
 				{
-					//mining
-					stage = 11;
 					sendDialogue(SEND_4_OPTIONS, "Mining",
 							"Varrock Mine", "Falador Mine", "Al-Karid Mine", "NA");
+					stage = 11;
 				}else if (componentId == 2)
 				{
 			
 				}else if(componentId == 3)
+				{
+					
+				}else if(componentId == 4)
+				{
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
+					stage = 1;
+					
+				}else if (componentId == 5)
+				{
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
+					stage = -1;
+					
+				}
+			}
+			else if(stage == 11)
+			{
+				if (componentId == 1)
+				{
+					teleportPlayer2(3087,3047,0);
+					
+				}else if (componentId == 2)
+				{
+					
+				}else if (componentId == 3)
+				{
+					
+				}else if (componentId == 4)
+				{
+					
+				}else if (componentId == 5)
 				{
 					
 				}

@@ -55,7 +55,7 @@ Change those numbers to the x y z coords you got from doing ;;coords. and then c
 	World.spawnNPC(544, new WorldTile(2636, 4887, 2), 0, true, true); //skilcape shop
 	World.spawnNPC(6971, new WorldTile(2636, 4886, 2), 0, true, true);//summoning supplies
 	
-	World.spawnNPC(15582, new WorldTile(2629, 4893, 2), 0, true, true); //Prestige
+	World.spawnNPC(15582, new WorldTile(3091, 3497, 0), 0, true, true); //Prestige
 	World.spawnNPC(8461, new WorldTile(2629, 4892, 2), 0, true, true);	//turadel
 	World.spawnNPC(5027, new WorldTile(2629, 4891, 2), 1, true, true); //Shop Tele
 	World.spawnNPC(2676, new WorldTile(2629, 4890, 2), 0, true, true); //makeover mage

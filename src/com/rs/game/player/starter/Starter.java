@@ -29,8 +29,8 @@ public class Starter {
 		//player.getInventory().addItem(2435, 20); // Prayer pot
 		
 		
-		player.getInventory().addItem(379, 20); // 20 lobster
-		player.getInventory().addItem(995, 2000000); // 4m gp
+		player.getInventory().addItem(380, 20); // 20 lobster
+		player.getInventory().addItem(995, 2000000); // 2m gp
 		player.getInventory().addItem(1007, 1); // Cape
 		player.getInventory().addItem(1725, 1); // Ammy
 		

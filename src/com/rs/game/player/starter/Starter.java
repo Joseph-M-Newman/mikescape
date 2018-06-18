@@ -23,31 +23,31 @@ public class Starter {
 		//player.getCutscenesManager().play(5);
 		
 		
-		player.getInventory().addItem(2437, 20); // attack pot
-		player.getInventory().addItem(2441, 20); // str pot
-		player.getInventory().addItem(2443, 20); // def pot
-		player.getInventory().addItem(2435, 20); // Prayer pot
+		//player.getInventory().addItem(2437, 20); // attack pot
+		//player.getInventory().addItem(2441, 20); // str pot
+		//player.getInventory().addItem(2443, 20); // def pot
+		//player.getInventory().addItem(2435, 20); // Prayer pot
 		
 		
-		player.getInventory().addItem(7947, 300); // monkfish
-		player.getInventory().addItem(995, 4000000); // 4m gp
+		player.getInventory().addItem(379, 20); // 20 lobster
+		player.getInventory().addItem(995, 2000000); // 4m gp
 		player.getInventory().addItem(1007, 1); // Cape
 		player.getInventory().addItem(1725, 1); // Ammy
 		
-		player.getInventory().addItem(7539, 1); // helm
-		player.getInventory().addItem(2934, 1); // boots
-		player.getInventory().addItem(2936, 1); // top
-		player.getInventory().addItem(2938, 1); // bottom
+		player.getInventory().addItem(1153, 1); // helm
+		player.getInventory().addItem(3105, 1); // boots
+		player.getInventory().addItem(1115, 1); // top
+		player.getInventory().addItem(1067, 1); // bottom
 		
 		player.getInventory().addItem(556, 1000); // air rune
 		player.getInventory().addItem(558, 1000); // mind rune
-		player.getInventory().addItem(884, 500); // iron arrows
+		player.getInventory().addItem(884, 100); // iron arrows
 		player.getInventory().addItem(841, 1); // short bow
 		
 		player.getInventory().addItem(1323, 1); // iron scim
-		player.getInventory().addItem(1333, 1); // rune scim
-		player.getInventory().addItem(4587, 1); // d scim
-		player.getInventory().addItem(1215, 1); // dds
+		//player.getInventory().addItem(1333, 1); // rune scim
+		//player.getInventory().addItem(4587, 1); // d scim
+		//player.getInventory().addItem(1215, 1); // dds
 		player.softreset = true; 
 
 		player.getHintIconsManager().removeUnsavedHintIcon();

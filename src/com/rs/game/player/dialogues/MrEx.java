@@ -109,8 +109,8 @@ public class MrEx extends Dialogue {
 			}
 		} else if (stage == 5) {
 			if (componentId == 1) {
-				sendDialogue(SEND_4_OPTIONS, "GWD: ", "Bandos.",
-						"Armadyl.", "Zammy.", "Sara");
+				sendDialogue(SEND_5_OPTIONS, "GWD: ", "Bandos.",
+						"Armadyl.", "Zammy.", "Sara","Return");
 				stage = 12;
 			} else if (componentId == 2){
 				teleportPlayer2(2994, 9679, 0);
@@ -204,6 +204,20 @@ public class MrEx extends Dialogue {
 				if(componentId == 1)
 				{
 					teleportPlayer(2864,5354,2);
+				}else if (componentId == 2)
+				{
+					teleportPlayer(2839,5296,2);
+				}else if (componentId == 3)
+				{
+					teleportPlayer(2925,5331,2);
+				}else if (componentId == 4)
+				{
+					teleportPlayer(2907,5265,0);
+				}else if (componentId == 5)
+				{
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
+					stage = 1;
 				}
 			}
 		}

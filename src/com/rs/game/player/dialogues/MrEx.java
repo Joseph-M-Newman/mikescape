@@ -23,7 +23,7 @@ public class MrEx extends Dialogue {
 	@Override
 	public void run(int interfaceId, int componentId) {
 		if (stage == -1) {
-			sendDialogue(SEND_5_OPTIONS, "Select:: ", "Training.",
+			sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
 					"Skilling.", "MiniGames.", "Bosses", "Cities.");
 			stage = 1;
 		} else if (stage == 1) {
@@ -70,8 +70,8 @@ public class MrEx extends Dialogue {
 			else if (componentId == 5) {
 				stage = 7;
 				sendDialogue(SEND_5_OPTIONS, "Training:",
-						".", ". ", ".",
-						" ", "More Options");
+						"polypore dungeon", ". ", ".",
+						" ", "Return");
 			}
 			//SKILLING
 		} else if (stage == 3) {
@@ -105,24 +105,23 @@ public class MrEx extends Dialogue {
 				stage = 5;
 				sendDialogue(SEND_5_OPTIONS, "Fun Areas",
 						"Duel Arena", "Clan Wars", "Safe Pvp (Home)", "Coming Soon",
-						"More Options");
+						"Return");
 			}
 		} else if (stage == 5) {
 			if (componentId == 1) {
-			Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3365,3275, 0));
-			player.getControlerManager().startControler("DuelControler");
+				sendDialogue(SEND_4_OPTIONS, "GWD: ", "Bandos.",
+						"Armadyl.", "Zammy.", "Sara");
+				stage = 12;
 			} else if (componentId == 2){
 				teleportPlayer2(2994, 9679, 0);
 		}	else if (componentId == 3){
-				teleportPlayer2(3795, 2848, 0);
-				player.getPackets().sendGameMessage("Walk inside the rock boundaries and type ::Startpvp"); 
+				teleportPlayer(2905,5203,0);
 			}else if (componentId == 4) {
 				 player.getPackets().sendGameMessage("Got a suggestion? Tell a member of staff."); 
 			} else if (componentId == 5) {
-				stage = 6;
-				sendDialogue(SEND_5_OPTIONS, "PvM",
-						"Jadinko Lair", "Tzhar Volcano", "Chickens", "Polypore Dungeon",
-						"More Options");
+				stage = 1;
+				sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+						"Skilling.", "MiniGames.", "Bosses", "Cities.");
 			}
 		} else if (stage == 6) {
 			if (componentId == 1){
@@ -134,15 +133,13 @@ public class MrEx extends Dialogue {
 			}else if (componentId == 4){
 				teleportPlayer2(3297, 9824, 0);
 			}else if (componentId == 5) {
-				stage = 7;
-				sendDialogue((short) 238, new String[] {
-						"PvM", "Bork (Wilderness).",
-						"Kalphite Queen.", "Dagonoth Kings", "Revenants(wilderness)",
-						"More Options" });
+			stage = 1;
+			sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+					"Skilling.", "MiniGames.", "Bosses", "Cities.");
 			}
 		} else if (stage == 7) {
 			if (componentId == 1){
-				
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3297,9824,0));
 			}else if (componentId == 2){
 			teleportPlayer2(3507, 9493, 0);
 			}else if (componentId == 3){
@@ -151,10 +148,11 @@ public class MrEx extends Dialogue {
 				teleportPlayer2(3081, 10058, 0);
 				player.getControlerManager().startControler("Wilderness");
 			}else if (componentId == 5) {
-				sendDialogue(SEND_5_OPTIONS, "Bossing", "Bandos.",
-					"Zamorak.", "Armadyl.", "Saradomin", "More Options");
-				stage = -1;
-			}
+				sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+						"Skilling.", "MiniGames.", "Bosses", "Cities.");
+				stage = 1;
+				}
+		}
 			else if(stage == 10)
 			{
 				if(componentId == 1)
@@ -176,8 +174,8 @@ public class MrEx extends Dialogue {
 					
 				}else if (componentId == 5)
 				{
-					sendDialogue(SEND_4_OPTIONS, "Mining",
-							"Varrock Mine", "Falador Mine", "Al-Karid Mine", "NA");
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
 					stage = 1;
 					
 				}
@@ -201,12 +199,18 @@ public class MrEx extends Dialogue {
 				{
 					
 				}
+			}else if(stage == 12)
+			{
+				if(componentId == 1)
+				{
+					teleportPlayer(2864,5354,2);
+				}
 			}
 		}
 		
 		
 		//end else ifs
-	}
+	
 
 	private void teleportPlayer(int x, int y, int z) { //<-- Teleport method things
 		player.setNextWorldTile(new WorldTile(x, y, z));

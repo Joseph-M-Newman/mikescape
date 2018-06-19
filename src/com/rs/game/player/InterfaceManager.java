@@ -124,11 +124,11 @@ public class InterfaceManager {
 		
 		
                 sendTab(resizableScreen ? 93 : 207, 506);
-                player.getPackets().sendIComponentText(506, 0,  "<col=ff00ff><Img=6>Poanizer's Project");
+                player.getPackets().sendIComponentText(506, 0,  "<col=ff00ff><Img=6>Micro Scape");
                 player.getPackets().sendIComponentText(506, 2, "<col=FCFF00><Img=6>Prestige Rank:<col=ffffff>"+player.prestige+"");
                 player.getPackets().sendIComponentText(506, 4, "<col=FCFF00><Img=6>Vote Point:<col=ffffff>" + player.VotePoints);
                 player.getPackets().sendIComponentText(506, 6, "<col=FCFF00><Img=6>Time: <col=ffffff>" + String.valueOf(sdf.format(cal.getTime()))) ;
-                player.getPackets().sendIComponentText(506, 8, "<col=FCFF00><Img=6>Youtube");
+                player.getPackets().sendIComponentText(506, 8, "<col=FCFF00><Img=6>Home"); // was u tube
                 player.getPackets().sendIComponentText(506, 10, "<col=FCFF00><Img=6>Vote");
                 player.getPackets().sendIComponentText(506, 12, "<col=FCFF00><Img=6>Forum");
                 player.getPackets().sendIComponentText(506, 14, "<col=FCFF00><Img=6>Donate");
@@ -153,7 +153,7 @@ public class InterfaceManager {
                 player.getPackets().sendIComponentText(205, 13, "<col=FCFF00><Img=6>14");
                 player.getPackets().sendIComponentText(205, 14, "<col=FCFF00><Img=6>15");
                 player.getPackets().sendIComponentText(205, 15, "<col=FCFF00><Img=6>16");
-                player.getPackets().sendIComponentText(205, 61,  "<col=ff00ff><Img=6>Poanizer's Project");
+                player.getPackets().sendIComponentText(205, 61,  "<col=ff00ff><Img=6>Micro Scape");
                 player.getPackets().sendIComponentText(205, 57, "<col=FCFF00><Img=6>Prestige Rank:"+player.prestige+"");
                 player.getPackets().sendIComponentText(205, 53, "<col=FCFF00><Img=6>QPoints: <col=ffffff>0");
                 player.getPackets().sendIComponentText(205, 49, "<col=FCFF00><Img=6>DTokens: "+player.toks+" ");

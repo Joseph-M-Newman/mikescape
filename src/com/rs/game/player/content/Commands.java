@@ -17,7 +17,6 @@ import java.util.Locale;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
-import org.Vote.*;
 import com.rs.Launcher;
 import com.rs.Settings;
 import com.rs.cache.loaders.ItemDefinitions;
@@ -196,7 +195,7 @@ public final class Commands {
 				boolean loggedIn = true;
 				if (target == null) {
 					target = SerializableFilesManager.loadPlayer(Utils
-							.formatPlayerNameForProtocol(name));
+														.formatPlayerNameForProtocol(name));
 					if (target != null)
 						target.setUsername(Utils
 								.formatPlayerNameForProtocol(name));
@@ -477,6 +476,7 @@ Calendar cal = Calendar.getInstance();
 			}	
 				
 			} }
+			 
 		if (cmd[0].equalsIgnoreCase("task")) {
 			player.getDialogueManager().startDialogue("EnchantedGemDialouge");
 					return true;
@@ -5854,8 +5854,12 @@ return false;
 				player.getPackets().sendGameMessage("MusicUnlock has been set to false.");
 			}
 			
-		
-
+			if(cmd[0].equalsIgnoreCase("sdz")) {
+				 Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3042,4492, 0));
+					player.getPackets().sendGameMessage(
+                            "<col=00ff00>Welcome to SDZ, "+player.getDisplayName());
+		return true;
+			}
 				 if (cmd[0].equalsIgnoreCase("edge")) {
                     Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3087,3492, 0));                                        
                             

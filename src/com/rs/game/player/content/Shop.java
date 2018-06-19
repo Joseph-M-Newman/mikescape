@@ -87,7 +87,7 @@ public class Shop {
 		if (!enoughCoins) {
 			player.getPackets().sendGameMessage("You don't have enough Coins.");
 			buyQ = maxQuantity;
-		} else if (quantity > buyQ){
+		} if (quantity > buyQ){ 
 			player.getPackets().sendGameMessage(
 					"The shop has run out of stock.");
 		}if (item.getDefinitions().isStackable()) {

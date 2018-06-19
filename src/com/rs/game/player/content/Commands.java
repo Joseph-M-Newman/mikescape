@@ -5866,7 +5866,8 @@ return false;
 				
 				}
 				 if (cmd[0].equalsIgnoreCase("home")) {
-                    Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2632,4890, 2));                                        
+					 Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3087,3491, 0));
+                    //old home! Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2632,4890, 2));                                        
                             
 							player.getPackets().sendGameMessage(
                                     "<col=00ff00>Welcome home, "+player.getDisplayName());

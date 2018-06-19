@@ -1050,7 +1050,7 @@ World.spawnObject(new WorldObject(2494, 10, 0, 2995, 9688, 0), true);/*Slayer To
 
 	World.spawnObject(new WorldObject(1392, 10, 0, 2604, 4782, 0), true); //bush for bank deposit
 	
-	World.spawnObject(new WorldObject(782, 10, 3, 2601, 4774, 0), true); //bank
+	World.spawnNPC(945, new WorldTile(2601, 4774, 0), 0, true, true);
 	
 		
 //bushes

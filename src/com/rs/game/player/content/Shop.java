@@ -38,6 +38,7 @@ public class Shop {
 	public static final int SANTA_HAT = 1050;
 	public static final int SLAYER_COINS = 13650;
 	public static final int CASTLE_WARS_TICKET = 4067;
+	public static final int MICRO_TOKEN = 12852;
 	public int id = 0;
 
 	private String name;
@@ -288,8 +289,8 @@ public class Shop {
 				buyQ = maxQuantity;
 				} 
 			//}
-	//	else{
-		if (quantity > buyQ)
+			
+			else if(quantity > buyQ)
 			player.getPackets().sendGameMessage(
 					"The shop has run out of stock.");
 		if (item.getDefinitions().isStackable()) {

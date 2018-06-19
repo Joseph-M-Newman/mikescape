@@ -176,9 +176,9 @@ public class MrEx extends Dialogue {
 					
 				}else if (componentId == 5)
 				{
-					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
-							"Skilling.", "MiniGames.", "Bosses", "Cities.");
-					stage = -1;
+					sendDialogue(SEND_4_OPTIONS, "Mining",
+							"Varrock Mine", "Falador Mine", "Al-Karid Mine", "NA");
+					stage = 1;
 					
 				}
 			}

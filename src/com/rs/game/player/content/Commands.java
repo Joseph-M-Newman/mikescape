@@ -1977,7 +1977,7 @@ if (cmd[0].equalsIgnoreCase("read")){
 				player.getBank().addItem(20768, 1, true);
 				World.sendWorldWideMessage("<shad=000><col=01DF01>[Maxed]: <shad=000><col=ff0000> Congratulations! " + player.getUsername() + " Has just maxed on the Poanizer Project");
 					
-				player.sendMessage("Thank you for maxing on The Poanizer Project.");
+				player.sendMessage("Thank you for maxing on Micro Scape.");
 							player.getPackets().sendGameMessage(
                                     "<col=00ff00>Welcome home, "+player.getDisplayName());
 				return true;

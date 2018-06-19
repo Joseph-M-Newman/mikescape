@@ -1082,16 +1082,14 @@ public boolean checkVotes(String playerName) {
 		
 		
 		getPackets()
-		.sendGameMessage("<col=FF0000><shad=000000>Welcome to The Poanizer Project.");
+		.sendGameMessage("<col=FF0000><shad=000000>Welcome to Micro Scape.");
 		
 		getPackets()
-		.sendGameMessage("<col=FFFF00><shad=000000>Talk to Poanizer at ::home to get started setting up your RSPS");
+		.sendGameMessage("<col=FFFF00><shad=000000>Talk to the Guide at home to get started on this server!");
 		
 		getPackets()
 		.sendGameMessage("<col=FFFF00><shad=000000>Remember to also read the 'Information/Notes' in Extras.");
 			
-		getPackets()
-		.sendGameMessage("<col=FFFF00><shad=000000>And remember to change this message in Player.java........");
 		
 		getPackets()
 		.sendGameMessage("<col=0101DF>-------------------------------------------------------------------.");
@@ -2562,7 +2560,7 @@ if (!controlerManager.sendDeath())
      inventory.init();
      reset();
     } else if (loop == 1) {
-     getPackets().sendGameMessage("Oh dear, you have died.");
+     getPackets().sendGameMessage("Lol get rekt idiot...");
 	 if (source instanceof Player) {
 						Player killer = (Player) source;
 						killer.setAttackedByDelay(4);

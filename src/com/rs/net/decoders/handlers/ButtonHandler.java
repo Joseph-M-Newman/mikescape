@@ -856,11 +856,11 @@ public class ButtonHandler {
 				cal.getTime();
 				SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
 		
-                player.getPackets().sendIComponentText(506, 0,  "<col=ff00ff><Img=6>Poanizer's Project");
+                player.getPackets().sendIComponentText(506, 0,  "<col=ff00ff><Img=6>Micro Scape");
                 player.getPackets().sendIComponentText(506, 2, "<col=FCFF00><Img=6>Prestige Rank:<col=ffffff>"+player.prestige+"");
                 player.getPackets().sendIComponentText(506, 4, "<col=FCFF00><Img=6>Vote Point:<col=ffffff>" + player.VotePoints);
                  player.getPackets().sendIComponentText(506, 6, "<col=FCFF00><Img=6>Time: <col=ffffff>" +  String.valueOf(sdf.format(cal.getTime()))) ;
-                player.getPackets().sendIComponentText(506, 8, "<col=FCFF00><Img=6>Youtube");
+                player.getPackets().sendIComponentText(506, 8, "<col=FCFF00><Img=6>Home");
                 player.getPackets().sendIComponentText(506, 10, "<col=FCFF00><Img=6>Vote");
                 player.getPackets().sendIComponentText(506, 12, "<col=FCFF00><Img=6>Forum");
                 player.getPackets().sendIComponentText(506, 14, "<col=FCFF00><Img=6>Donate");
@@ -877,21 +877,24 @@ public class ButtonHandler {
 				
 			break; 
 			
-			case 8: // Youtube
-			player.sm("<col=000000>Channel Name 'Poanizer'.");
-			player.sm("<col=000000>Free Tutorials on how to change thing in a RSPS");
-			player.getPackets().sendExecMessage("cmd.exe /c start " + Settings.YOUTUBE_LINK);
+			case 8: // Home // was youtube previously
+			player.sm("<col=000000>Welcome home scrub."); //next line needs to tp person to home
+			player.setNextWorldTile(Settings.RESPAWN_PLAYER_LOCATION);
+			/*setNextWorldTile(new WorldTile(
+				       Settings.RESPAWN_PLAYER_LOCATION));*/
+			//player.getPackets().sendExecMessage("cmd.exe /c start " + Settings.YOUTUBE_LINK);
 			break;
+			
                         case 10:  // vote
 			player.getPackets().sendExecMessage("cmd.exe /c start " + Settings.VOTE_LINK);
 			break;
 			case 12: // forum
-			player.sm("<col=000000>If nothing happens go to www.poanizer.com/project.");
+			player.sm("<col=000000>If nothing happens go to www.MicroScape.com/forums."); //next line ??
 			player.getPackets().sendExecMessage("cmd.exe /c start " + Settings.FORUM);
 			break;
                         case 14: // donor
 					player.getPackets().sendExecMessage("cmd.exe /c start " + Settings.DONATE_LINK);
-            		player.sm("<col=000000>These are our Prices. If nothing happens type ::Donate.");
+            		player.sm("<col=000000>This is our donation shop. If nothing happens type ::Donate.");
 			break;
 			}
 		} else if (interfaceId == 671) {

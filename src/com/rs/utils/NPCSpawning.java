@@ -84,7 +84,28 @@ Change those numbers to the x y z coords you got from doing ;;coords. and then c
 	World.spawnObject(new WorldObject(13619, 10, 2, 2633, 4897, 2), true);//red portal for teleports
 	World.spawnObject(new WorldObject(2793, 10, 1, 2639, 4879, 2), true);//stall to steal
 	World.spawnNPC(3709, new WorldTile(3090, 3494, 0), 0, true, true); //Mr Ex
+	// edge
+	World.spawnNPC(6537, new WorldTile(3082, 3484, 0), 0, true, true); //Special item shop
+	World.spawnNPC(2830, new WorldTile(3090, 3475, 0), 0, true, true); //melee wepons
+	World.spawnNPC(211, new WorldTile(3097, 3475, 0), 0, true, true);//melee armour
+	World.spawnNPC(1694, new WorldTile(3090, 3481, 0), 0, true, true);//range weapon
 	
+	World.spawnNPC(346, new WorldTile(3090, 3480, 0), 0, true, true);//range armour
+	World.spawnNPC(524, new WorldTile(3097, 3480, 0), 0, true, true); //mage gear
+	World.spawnNPC(546, new WorldTile(3097, 3481, 0), 0, true, true); //Mmagic supplies
+	World.spawnNPC(6971, new WorldTile(3089, 3484, 0), 0, true, true);//summoning supplies
+	
+	World.spawnNPC(454, new WorldTile(3090, 3478, 0), 0, true, true);//food n pots
+	World.spawnNPC(4555, new WorldTile(3088, 3484, 0), 0, true, true); //Fog Shop
+	World.spawnNPC(210, new WorldTile(3087, 3484, 0), 0, true, true); //pure acces
+	World.spawnNPC(576, new WorldTile(3086, 3484, 0), 0, true, true); //skill shop
+	World.spawnNPC(519, new WorldTile(3085, 3484, 0), 0, true, true); //herb shop
+	World.spawnNPC(544, new WorldTile(3097, 3478, 0), 0, true, true); //skilcape shop
+	World.spawnNPC(523, new WorldTile(3084, 3484, 0), 0, true, true); //sell to me
+	World.spawnNPC(8461, new WorldTile(3083, 3488, 0), 0, true, true);	//turadel
+			
+	World.spawnNPC(2676, new WorldTile(3082, 3485, 0), 0, true, true); //makeover mage
+	World.spawnNPC(1039, new WorldTile(3082, 3486, 0), 0, true, true); //male clothes
 	
 /* END OF STUFF TO CHANGE  	
 //----------------------------------------------------------------------------------------------------------------------			 
@@ -133,8 +154,7 @@ World.spawnNPC(13295, new WorldTile(2326, 3801, 0), 0, true, true);
 	World.spawnObject(new WorldObject(13381, 10, 1, 1892, 5401, 0), true);
 
 	//benches
-	World.spawnObject(new WorldObject(42380, 10, 3, 3082, 3493, 0), true);
-	World.spawnObject(new WorldObject(42380, 10, 3, 3082, 3491, 0), true);
+	
 
 
 //Kalphite King 
@@ -1650,10 +1670,10 @@ World.spawnObject(new WorldObject(2494, 10, 0, 2995, 9688, 0), true);/*Slayer To
 	World.spawnObject(new WorldObject(55301, 10, 2, 3090, 3493, 0), true); //PkRanks*/
 	
 		
+/*
 
 
-//old edge shops
-		/*
+		
 		World.spawnNPC(6537, new WorldTile(3082, 3484, 0), 0, true, true); //Special item shop
 		World.spawnNPC(2830, new WorldTile(3090, 3475, 0), 0, true, true); //melee wepons
 		World.spawnNPC(211, new WorldTile(3097, 3475, 0), 0, true, true);//melee armour
@@ -1675,8 +1695,7 @@ World.spawnObject(new WorldObject(2494, 10, 0, 2995, 9688, 0), true);/*Slayer To
 				
 		World.spawnNPC(2676, new WorldTile(3082, 3485, 0), 0, true, true); //makeover mage
 		World.spawnNPC(1039, new WorldTile(3082, 3486, 0), 0, true, true); //male clothes
-		World.spawnNPC(285, new WorldTile(3082, 3487, 0), 0, true, true);	//female clothes	
-		World.spawnNPC(945, new WorldTile(3090, 3494, 0), 0, true, true);
+	
 		*/
 		
 

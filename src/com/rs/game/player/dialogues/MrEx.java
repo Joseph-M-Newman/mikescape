@@ -60,9 +60,9 @@ public class MrEx extends Dialogue {
 			//TRAINING
 		} else if (stage == 2) {
 			if (componentId == 1) {
-				teleportPlayer(2905, 5203, 0);
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2672,3713,0));
 			} else if (componentId == 2)
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2966, 4383, 0));
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2325, 3801, 0));
 			else if (componentId == 3)
 				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2285, 4694, 0));
 			else if (componentId == 4)
@@ -76,8 +76,8 @@ public class MrEx extends Dialogue {
 			//SKILLING
 		} else if (stage == 3) {
 			if (componentId == 1){
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3360, 3658, 0));
-				player.getControlerManager().startControler("Wilderness");
+				stage = 13;
+				sendDialogue(SEND_4_OPTIONS, "Agility:","Gnome Agility","Barbarian Agility","Wilderness Agility","Return");
 			}else if (componentId == 2) {
 				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2984, 3596, 0));
 				player.getControlerManager().startControler("Wilderness");
@@ -218,6 +218,31 @@ public class MrEx extends Dialogue {
 					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
 							"Skilling.", "MiniGames.", "Bosses", "Cities.");
 					stage = 1;
+				}
+				//Agility 
+			}else if(stage == 13)
+			{
+				if(componentId == 1)
+				{
+					Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2474,3438,0));
+				}else if (componentId == 2)
+				{
+					Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2552,3556,0));
+				}else if (componentId == 3)
+				{
+					Magic.sendAncientTeleportSpell(player, 0, 0, new WorldTile(2997,3933,0));
+				}else if (componentId == 4)
+				{
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
+					stage = 1;
+				}
+				//cooking
+			} else if (stage == 14)
+			{
+				if (componentId == 1)
+				{
+					
 				}
 			}
 		}

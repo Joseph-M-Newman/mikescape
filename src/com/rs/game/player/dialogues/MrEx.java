@@ -32,13 +32,13 @@ public class MrEx extends Dialogue {
 			if (componentId == 1) {
 				 stage = 2;
 			sendDialogue(SEND_5_OPTIONS, "Training: ",
-					"Rock Crabs","Yaks","experiments","daggonoths","More Options");
+					"Rock Crabs","Yaks","Taverley Dungeon","Brimhaven Dungeon","More Options");
 			}
 			//skilling
 			else if (componentId == 2)
 			{
 				stage = 3;
-				sendDialogue(SEND_5_OPTIONS, "Skilling", "Agility","Dungeoneering","Woodcutting","Fishing","More");
+				sendDialogue(SEND_5_OPTIONS, "Skilling", "Agility","Cooking","Crafting","Fishing","More");
 			}
 			//minigames
 			else if (componentId == 3) {
@@ -61,32 +61,30 @@ public class MrEx extends Dialogue {
 			//TRAINING
 		} else if (stage == 2) {
 			if (componentId == 1) {
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2672,3713,0));
+				teleportPlayer(2905, 5203, 0); // rock crabs
 			} else if (componentId == 2)
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2325, 3801, 0));
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2966, 4383, 0)); //yaks
 			else if (componentId == 3)
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2285, 4694, 0));
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2884, 9800, 0)); //talv dung
 			else if (componentId == 4)
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2562,5739, 0));
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2710, 9466, 0)); //brim dung
 			else if (componentId == 5) {
 				stage = 7;
 				sendDialogue(SEND_5_OPTIONS, "Training:",
-						"polypore dungeon", ". ", ".",
-						" ", "Return");
+						"Slayer Tower", "Skeleton Monkeys", "Dungeoneering",
+						"Relleka cave", "Return");
 			}
 			//SKILLING
 		} else if (stage == 3) {
 			if (componentId == 1){
-				stage = 13;
-				sendDialogue(SEND_4_OPTIONS, "Agility:","Gnome Agility","Barbarian Agility","Wilderness Agility","Return");
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3360, 3658, 0));
+				player.getControlerManager().startControler("Wilderness");
 			}else if (componentId == 2) {
-				sendDialogue(SEND_2_OPTIONS, "Dungeoneering:","Dung");
-				stage = 14;
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2984, 3596, 0));
+				player.getControlerManager().startControler("Wilderness");
 			} else if (componentId == 3){
-			stage = 15;
-			sendDialogue(SEND_5_OPTIONS, "Woodcutting",
-					"Seers Village", "Willows", "Yews", "Magics",
-					"Return");
+				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3240, 3611, 0));
+				player.getControlerManager().startControler("Wilderness");
 			}else if (componentId == 4) {
 				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2539,4712, 0));
 			} else if (componentId == 5) {

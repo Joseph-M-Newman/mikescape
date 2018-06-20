@@ -4,6 +4,7 @@ import com.rs.cache.loaders.NPCDefinitions;
 import com.rs.game.WorldTile;
 import com.rs.game.minigames.CastleWars;
 import com.rs.game.player.content.Magic;
+import com.sun.org.glassfish.gmbal.ManagedObject;
 
 public class MrEx extends Dialogue {
 
@@ -37,7 +38,7 @@ public class MrEx extends Dialogue {
 			else if (componentId == 2)
 			{
 				stage = 3;
-				sendDialogue(SEND_5_OPTIONS, "Skilling", "Agility","Cooking","Crafting","Fishing","More");
+				sendDialogue(SEND_5_OPTIONS, "Skilling", "Agility","Dungeoneering","Woodcutting","Fishing","More");
 			}
 			//minigames
 			else if (componentId == 3) {
@@ -79,11 +80,13 @@ public class MrEx extends Dialogue {
 				stage = 13;
 				sendDialogue(SEND_4_OPTIONS, "Agility:","Gnome Agility","Barbarian Agility","Wilderness Agility","Return");
 			}else if (componentId == 2) {
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2984, 3596, 0));
-				player.getControlerManager().startControler("Wilderness");
+				sendDialogue(SEND_2_OPTIONS, "Dungeoneering:","Dung");
+				stage = 14;
 			} else if (componentId == 3){
-				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3240, 3611, 0));
-				player.getControlerManager().startControler("Wilderness");
+			stage = 15;
+			sendDialogue(SEND_5_OPTIONS, "Woodcutting",
+					"Seers Village", "Willows", "Yews", "Magics",
+					"Return");
 			}else if (componentId == 4) {
 				Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(2539,4712, 0));
 			} else if (componentId == 5) {
@@ -237,13 +240,21 @@ public class MrEx extends Dialogue {
 							"Skilling.", "MiniGames.", "Bosses", "Cities.");
 					stage = 1;
 				}
-				//cooking
+				//Dung
 			} else if (stage == 14)
 			{
 				if (componentId == 1)
 				{
-					
-				}
+					Magic.sendNormalTeleportSpell(player, 0, 0, new WorldTile(3449,3747,0));
+				} else if (componentId == 2)
+				{
+					sendDialogue(SEND_5_OPTIONS, "Select: ", "Training.",
+							"Skilling.", "MiniGames.", "Bosses", "Cities.");
+					stage = 1;
+				} 
+			}else if (stage == 15)
+			{
+				
 			}
 		}
 		
